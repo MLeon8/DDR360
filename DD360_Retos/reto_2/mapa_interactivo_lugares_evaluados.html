@@ -1,0 +1,4024 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2f939fee6b81ebc917d129edd106118e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2f939fee6b81ebc917d129edd106118e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2f939fee6b81ebc917d129edd106118e = L.map(
+                "map_2f939fee6b81ebc917d129edd106118e",
+                {
+                    center: [19.394736176106196, -99.16155678407081],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30235e635dca8d8fd828eab730bc323a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var marker_fc2322732e6fb0a56515bc96cd8e3488 = L.marker(
+                [19.3887553, -99.1414125],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2bf574b2f4efa194a2d2221602721a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc2322732e6fb0a56515bc96cd8e3488.setIcon(icon_2bf574b2f4efa194a2d2221602721a36);
+        
+    
+        var popup_e142f06124513923199bd3e6260840f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_427a022baf8e6f13a2828934a144c7e3 = $(`<div id="html_427a022baf8e6f13a2828934a144c7e3" style="width: 100.0%; height: 100.0%;"><b>La Cocina Tradicional Mexicana</b><br>Calificación: 5.0<br>Higiene medida sano distancia excelente calidad alimento maravilloso atención valer pena</div>`)[0];
+                popup_e142f06124513923199bd3e6260840f8.setContent(html_427a022baf8e6f13a2828934a144c7e3);
+            
+        
+
+        marker_fc2322732e6fb0a56515bc96cd8e3488.bindPopup(popup_e142f06124513923199bd3e6260840f8)
+        ;
+
+        
+    
+    
+            marker_fc2322732e6fb0a56515bc96cd8e3488.bindTooltip(
+                `<div>
+                     La Cocina Tradicional Mexicana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22c48c1f7c3fce83f8fd497bfd17c640 = L.marker(
+                [19.2974304, -99.1200429],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_d6b386a06a8c2cc8af3f7590fb909fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22c48c1f7c3fce83f8fd497bfd17c640.setIcon(icon_d6b386a06a8c2cc8af3f7590fb909fca);
+        
+    
+        var popup_dcae2d6c13a6b541242d8204a8f29565 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_230a78a40077ffd7dc29d2133eee438b = $(`<div id="html_230a78a40077ffd7dc29d2133eee438b" style="width: 100.0%; height: 100.0%;"><b>Candelilla 16</b><br>Calificación: 5.0<br>chulada experiencia</div>`)[0];
+                popup_dcae2d6c13a6b541242d8204a8f29565.setContent(html_230a78a40077ffd7dc29d2133eee438b);
+            
+        
+
+        marker_22c48c1f7c3fce83f8fd497bfd17c640.bindPopup(popup_dcae2d6c13a6b541242d8204a8f29565)
+        ;
+
+        
+    
+    
+            marker_22c48c1f7c3fce83f8fd497bfd17c640.bindTooltip(
+                `<div>
+                     Candelilla 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e9b3c310f587f6cb499350df36b3fd6 = L.marker(
+                [19.2926021, -99.0575215],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_f19e688029b9a69cce3dbac022e504ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e9b3c310f587f6cb499350df36b3fd6.setIcon(icon_f19e688029b9a69cce3dbac022e504ea);
+        
+    
+        var popup_9b308155bd046b97008e10801f1ca7db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44b3316b9622adf178580f60b9a54faa = $(`<div id="html_44b3316b9622adf178580f60b9a54faa" style="width: 100.0%; height: 100.0%;"><b>Antojitos Méxicanos Don Max</b><br>Calificación: 5.0<br>excelente comida excelente servicio Don Max atento gracias</div>`)[0];
+                popup_9b308155bd046b97008e10801f1ca7db.setContent(html_44b3316b9622adf178580f60b9a54faa);
+            
+        
+
+        marker_2e9b3c310f587f6cb499350df36b3fd6.bindPopup(popup_9b308155bd046b97008e10801f1ca7db)
+        ;
+
+        
+    
+    
+            marker_2e9b3c310f587f6cb499350df36b3fd6.bindTooltip(
+                `<div>
+                     Antojitos Méxicanos Don Max
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e7912924da41e8e2d74019c506f56ff = L.marker(
+                [19.3040157, -99.0593798],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_e83e78ad45fff5a07f913398035d4c09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e7912924da41e8e2d74019c506f56ff.setIcon(icon_e83e78ad45fff5a07f913398035d4c09);
+        
+    
+        var popup_8997f5299dd5660febe55889594fb349 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c86d20b87a6327f1e38af8650bee3a95 = $(`<div id="html_c86d20b87a6327f1e38af8650bee3a95" style="width: 100.0%; height: 100.0%;"><b>Rico Amanecer</b><br>Calificación: 5.0<br>excelente lugar comida atención espectacular</div>`)[0];
+                popup_8997f5299dd5660febe55889594fb349.setContent(html_c86d20b87a6327f1e38af8650bee3a95);
+            
+        
+
+        marker_1e7912924da41e8e2d74019c506f56ff.bindPopup(popup_8997f5299dd5660febe55889594fb349)
+        ;
+
+        
+    
+    
+            marker_1e7912924da41e8e2d74019c506f56ff.bindTooltip(
+                `<div>
+                     Rico Amanecer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f91bdabcef4d69813b2b086c9f493a5 = L.marker(
+                [19.4168644, -99.1999896],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_c9119de85caf603ad076822b268bbe56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f91bdabcef4d69813b2b086c9f493a5.setIcon(icon_c9119de85caf603ad076822b268bbe56);
+        
+    
+        var popup_61548253b992078c19508ec35354c74d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_020364414d490ec94b23040c3e018e6b = $(`<div id="html_020364414d490ec94b23040c3e018e6b" style="width: 100.0%; height: 100.0%;"><b>El Lago Restaurante</b><br>Calificación: 5.0<br>excelente servicio alimento espectacular</div>`)[0];
+                popup_61548253b992078c19508ec35354c74d.setContent(html_020364414d490ec94b23040c3e018e6b);
+            
+        
+
+        marker_4f91bdabcef4d69813b2b086c9f493a5.bindPopup(popup_61548253b992078c19508ec35354c74d)
+        ;
+
+        
+    
+    
+            marker_4f91bdabcef4d69813b2b086c9f493a5.bindTooltip(
+                `<div>
+                     El Lago Restaurante
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc1b942412cbb62eb9957852d1c76327 = L.marker(
+                [19.350735, -99.18718],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_fe566dc8c100da93e1e2882da6836101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc1b942412cbb62eb9957852d1c76327.setIcon(icon_fe566dc8c100da93e1e2882da6836101);
+        
+    
+        var popup_4bf919c43a6837d9419a78eefafc8192 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6229437dbd0a9bd34d51e418ed5c3e06 = $(`<div id="html_6229437dbd0a9bd34d51e418ed5c3e06" style="width: 100.0%; height: 100.0%;"><b>Guadiana</b><br>Calificación: 5.0<br>espacio parking servicio excelente</div>`)[0];
+                popup_4bf919c43a6837d9419a78eefafc8192.setContent(html_6229437dbd0a9bd34d51e418ed5c3e06);
+            
+        
+
+        marker_fc1b942412cbb62eb9957852d1c76327.bindPopup(popup_4bf919c43a6837d9419a78eefafc8192)
+        ;
+
+        
+    
+    
+            marker_fc1b942412cbb62eb9957852d1c76327.bindTooltip(
+                `<div>
+                     Guadiana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95bb6e5fc30a3c92e41f75c21c4f332c = L.marker(
+                [19.387459, -99.157308],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_05615e4e9de6ac361f9f26694e441c7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95bb6e5fc30a3c92e41f75c21c4f332c.setIcon(icon_05615e4e9de6ac361f9f26694e441c7f);
+        
+    
+        var popup_daa04c143d653f19043803ef6ada706b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b76e5b59b90a54353b72cfa6118bcf2f = $(`<div id="html_b76e5b59b90a54353b72cfa6118bcf2f" style="width: 100.0%; height: 100.0%;"><b>Hanal K'U</b><br>Calificación: 5.0<br>Excelente comida deliciós ambiente familiar lugar agradable familia pareja simplemente</div>`)[0];
+                popup_daa04c143d653f19043803ef6ada706b.setContent(html_b76e5b59b90a54353b72cfa6118bcf2f);
+            
+        
+
+        marker_95bb6e5fc30a3c92e41f75c21c4f332c.bindPopup(popup_daa04c143d653f19043803ef6ada706b)
+        ;
+
+        
+    
+    
+            marker_95bb6e5fc30a3c92e41f75c21c4f332c.bindTooltip(
+                `<div>
+                     Hanal K'U
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98615af711e2e5d1087f1081195ae6e3 = L.marker(
+                [19.3555777, -99.1298817],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_aa2947bcb25b07aaeb3d1727f8e2f57f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98615af711e2e5d1087f1081195ae6e3.setIcon(icon_aa2947bcb25b07aaeb3d1727f8e2f57f);
+        
+    
+        var popup_6c7b1e13b1d4deaa12f3687126dd2b42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42801f8af3549c0682f46ed6cdbe8182 = $(`<div id="html_42801f8af3549c0682f46ed6cdbe8182" style="width: 100.0%; height: 100.0%;"><b>Carnitas Don Rafa</b><br>Calificación: 5.0<br>familia cliente año lugar dar excelente servicio calidad alimento atender fundador negocio</div>`)[0];
+                popup_6c7b1e13b1d4deaa12f3687126dd2b42.setContent(html_42801f8af3549c0682f46ed6cdbe8182);
+            
+        
+
+        marker_98615af711e2e5d1087f1081195ae6e3.bindPopup(popup_6c7b1e13b1d4deaa12f3687126dd2b42)
+        ;
+
+        
+    
+    
+            marker_98615af711e2e5d1087f1081195ae6e3.bindTooltip(
+                `<div>
+                     Carnitas Don Rafa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f21e8b3e1ece8382478165599777ea7f = L.marker(
+                [19.3419426, -99.18141],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_c97c56ba65e0b5c26f57ac107e54311f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f21e8b3e1ece8382478165599777ea7f.setIcon(icon_c97c56ba65e0b5c26f57ac107e54311f);
+        
+    
+        var popup_ac8d255617c0ec10ef1aec6b9e347dc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5c732ae4fe4ab5a8be97d708137656d = $(`<div id="html_a5c732ae4fe4ab5a8be97d708137656d" style="width: 100.0%; height: 100.0%;"><b>El Gnomo</b><br>Calificación: 5.0<br>hamburguesa gnomo recomendable x calidad sabor preparación parecer sencillo aderezo queso combinar perfecto</div>`)[0];
+                popup_ac8d255617c0ec10ef1aec6b9e347dc0.setContent(html_a5c732ae4fe4ab5a8be97d708137656d);
+            
+        
+
+        marker_f21e8b3e1ece8382478165599777ea7f.bindPopup(popup_ac8d255617c0ec10ef1aec6b9e347dc0)
+        ;
+
+        
+    
+    
+            marker_f21e8b3e1ece8382478165599777ea7f.bindTooltip(
+                `<div>
+                     El Gnomo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdf2de33ddf0248fe78308b726dbe785 = L.marker(
+                [19.387961, -99.169411],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_ca594a71e226b45f0894cf290042a464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cdf2de33ddf0248fe78308b726dbe785.setIcon(icon_ca594a71e226b45f0894cf290042a464);
+        
+    
+        var popup_416a134a92bff0780d9c04725458da32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77636ba248124ecb4697c13fc6514047 = $(`<div id="html_77636ba248124ecb4697c13fc6514047" style="width: 100.0%; height: 100.0%;"><b>Las Polas del Valle</b><br>Calificación: 5.0<br>obligado fan comida Yucateca menú</div>`)[0];
+                popup_416a134a92bff0780d9c04725458da32.setContent(html_77636ba248124ecb4697c13fc6514047);
+            
+        
+
+        marker_cdf2de33ddf0248fe78308b726dbe785.bindPopup(popup_416a134a92bff0780d9c04725458da32)
+        ;
+
+        
+    
+    
+            marker_cdf2de33ddf0248fe78308b726dbe785.bindTooltip(
+                `<div>
+                     Las Polas del Valle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e13954e256482211f6c3d013fb6c8f1 = L.marker(
+                [19.4104231, -99.1633804],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_b6316a485e1f8f611ce1d021b07af986 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e13954e256482211f6c3d013fb6c8f1.setIcon(icon_b6316a485e1f8f611ce1d021b07af986);
+        
+    
+        var popup_582edd9f18ce909de623de6d510ef4c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_952e4a80ce5e01de7bba457efb7ce373 = $(`<div id="html_952e4a80ce5e01de7bba457efb7ce373" style="width: 100.0%; height: 100.0%;"><b>Mercado Medellín</b><br>Calificación: 5.0<br>caro lindo encuentra</div>`)[0];
+                popup_582edd9f18ce909de623de6d510ef4c5.setContent(html_952e4a80ce5e01de7bba457efb7ce373);
+            
+        
+
+        marker_4e13954e256482211f6c3d013fb6c8f1.bindPopup(popup_582edd9f18ce909de623de6d510ef4c5)
+        ;
+
+        
+    
+    
+            marker_4e13954e256482211f6c3d013fb6c8f1.bindTooltip(
+                `<div>
+                     Mercado Medellín
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1997e1988c9986e410845ccc632b31b9 = L.marker(
+                [19.2883123, -99.2271625],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_fa1be5c8eab8f020aa441ade9f61a09f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1997e1988c9986e410845ccc632b31b9.setIcon(icon_fa1be5c8eab8f020aa441ade9f61a09f);
+        
+    
+        var popup_1c82f34edae54a1d5a31075187c2ba34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2266dcc3035c0e1593a133fbb12bbd48 = $(`<div id="html_2266dcc3035c0e1593a133fbb12bbd48" style="width: 100.0%; height: 100.0%;"><b>TORTAS AHOGADAS EL CHIFLADERO GDL</b><br>Calificación: 2.0<br>sobrar sal carnita tardar atender</div>`)[0];
+                popup_1c82f34edae54a1d5a31075187c2ba34.setContent(html_2266dcc3035c0e1593a133fbb12bbd48);
+            
+        
+
+        marker_1997e1988c9986e410845ccc632b31b9.bindPopup(popup_1c82f34edae54a1d5a31075187c2ba34)
+        ;
+
+        
+    
+    
+            marker_1997e1988c9986e410845ccc632b31b9.bindTooltip(
+                `<div>
+                     TORTAS AHOGADAS EL CHIFLADERO GDL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_526cf15eb98f072b577d8aab2d8ada5f = L.marker(
+                [19.4838489, -99.1861197],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_064cb157e20b4f9af3e5e026691c4fd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_526cf15eb98f072b577d8aab2d8ada5f.setIcon(icon_064cb157e20b4f9af3e5e026691c4fd8);
+        
+    
+        var popup_59c006eb4bfd3f7b8dbd656b807590ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e20d7ef7a26e05e178d98c849ebcdea8 = $(`<div id="html_e20d7ef7a26e05e178d98c849ebcdea8" style="width: 100.0%; height: 100.0%;"><b>La Perla Tapatía Azcapotzalco</b><br>Calificación: 4.0<br>excelente servicio rico birrio</div>`)[0];
+                popup_59c006eb4bfd3f7b8dbd656b807590ba.setContent(html_e20d7ef7a26e05e178d98c849ebcdea8);
+            
+        
+
+        marker_526cf15eb98f072b577d8aab2d8ada5f.bindPopup(popup_59c006eb4bfd3f7b8dbd656b807590ba)
+        ;
+
+        
+    
+    
+            marker_526cf15eb98f072b577d8aab2d8ada5f.bindTooltip(
+                `<div>
+                     La Perla Tapatía Azcapotzalco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_547e4f311f7e856715e126e3d220155a = L.marker(
+                [19.4873628, -99.1848084],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_7f63c584f686282191d16060067b4c03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_547e4f311f7e856715e126e3d220155a.setIcon(icon_7f63c584f686282191d16060067b4c03);
+        
+    
+        var popup_8b1c3d885acd51400568902281a513c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ff98a4677f3888ea9b375d8502666d9 = $(`<div id="html_1ff98a4677f3888ea9b375d8502666d9" style="width: 100.0%; height: 100.0%;"><b>Las Klauyudas, tlayudas y antojitos oaxaqueños</b><br>Calificación: 5.0<br>servicio comida buenísimo</div>`)[0];
+                popup_8b1c3d885acd51400568902281a513c8.setContent(html_1ff98a4677f3888ea9b375d8502666d9);
+            
+        
+
+        marker_547e4f311f7e856715e126e3d220155a.bindPopup(popup_8b1c3d885acd51400568902281a513c8)
+        ;
+
+        
+    
+    
+            marker_547e4f311f7e856715e126e3d220155a.bindTooltip(
+                `<div>
+                     Las Klauyudas, tlayudas y antojitos oaxaqueños
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e74f225e57eb67e392ad8106db1556a3 = L.marker(
+                [19.3471841, -99.1888387],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_3a6416859d0e51a0168716790d85e391 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e74f225e57eb67e392ad8106db1556a3.setIcon(icon_3a6416859d0e51a0168716790d85e391);
+        
+    
+        var popup_d54f1d3a0daecefd90c1d68d9eaba9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed60eb4ce8a32d9ec2a376e0a347b5db = $(`<div id="html_ed60eb4ce8a32d9ec2a376e0a347b5db" style="width: 100.0%; height: 100.0%;"><b>Restaurante El Cardenal</b><br>Calificación: 5.0<br>excelente servicio medida sanidad extremadamente compar restaurante</div>`)[0];
+                popup_d54f1d3a0daecefd90c1d68d9eaba9e9.setContent(html_ed60eb4ce8a32d9ec2a376e0a347b5db);
+            
+        
+
+        marker_e74f225e57eb67e392ad8106db1556a3.bindPopup(popup_d54f1d3a0daecefd90c1d68d9eaba9e9)
+        ;
+
+        
+    
+    
+            marker_e74f225e57eb67e392ad8106db1556a3.bindTooltip(
+                `<div>
+                     Restaurante El Cardenal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfa4e84007a526adfe5b39938fd05973 = L.marker(
+                [19.3687457, -99.1600371],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2906a6b37f7495940d496e1d97e36dcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfa4e84007a526adfe5b39938fd05973.setIcon(icon_2906a6b37f7495940d496e1d97e36dcf);
+        
+    
+        var popup_9237919df5f1ab49e6483eebf962cbb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8c23ed21dab205a75c383162c350fb5 = $(`<div id="html_b8c23ed21dab205a75c383162c350fb5" style="width: 100.0%; height: 100.0%;"><b>Tlayudas el Tasajo</b><br>Calificación: 5.0<br>Deliciosas mes tlayuda especial valer pena</div>`)[0];
+                popup_9237919df5f1ab49e6483eebf962cbb0.setContent(html_b8c23ed21dab205a75c383162c350fb5);
+            
+        
+
+        marker_bfa4e84007a526adfe5b39938fd05973.bindPopup(popup_9237919df5f1ab49e6483eebf962cbb0)
+        ;
+
+        
+    
+    
+            marker_bfa4e84007a526adfe5b39938fd05973.bindTooltip(
+                `<div>
+                     Tlayudas el Tasajo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b1e9bb85db430a3807be315023c969b = L.marker(
+                [19.4280021, -99.1381204],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_671e8da2f4298f461eeb72f8881bdc61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b1e9bb85db430a3807be315023c969b.setIcon(icon_671e8da2f4298f461eeb72f8881bdc61);
+        
+    
+        var popup_204b0d744e41d131af6cd4be6f506c7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f360a3f437e071f9a3b636647c568082 = $(`<div id="html_f360a3f437e071f9a3b636647c568082" style="width: 100.0%; height: 100.0%;"><b>Zéfiro</b><br>Calificación: 2.0<br>Malo</div>`)[0];
+                popup_204b0d744e41d131af6cd4be6f506c7d.setContent(html_f360a3f437e071f9a3b636647c568082);
+            
+        
+
+        marker_9b1e9bb85db430a3807be315023c969b.bindPopup(popup_204b0d744e41d131af6cd4be6f506c7d)
+        ;
+
+        
+    
+    
+            marker_9b1e9bb85db430a3807be315023c969b.bindTooltip(
+                `<div>
+                     Zéfiro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_521f30b048300cb40ee517bf02a6cd54 = L.marker(
+                [19.3784711, -99.1691304],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_17d28aadb15e5dc55cf56e612d6ea284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_521f30b048300cb40ee517bf02a6cd54.setIcon(icon_17d28aadb15e5dc55cf56e612d6ea284);
+        
+    
+        var popup_f298546df53baaa1039b3c51f1ee6ead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a20340a7bc4c1b5f1ad426bfdaef4a = $(`<div id="html_c7a20340a7bc4c1b5f1ad426bfdaef4a" style="width: 100.0%; height: 100.0%;"><b>Hostal de Los Quesos</b><br>Calificación: 5.0<br>rico</div>`)[0];
+                popup_f298546df53baaa1039b3c51f1ee6ead.setContent(html_c7a20340a7bc4c1b5f1ad426bfdaef4a);
+            
+        
+
+        marker_521f30b048300cb40ee517bf02a6cd54.bindPopup(popup_f298546df53baaa1039b3c51f1ee6ead)
+        ;
+
+        
+    
+    
+            marker_521f30b048300cb40ee517bf02a6cd54.bindTooltip(
+                `<div>
+                     Hostal de Los Quesos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1e7429348c73e426434af90093bda24 = L.marker(
+                [19.4428157, -99.1564044],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_e7c5114ccac3252e5077212165df0f95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1e7429348c73e426434af90093bda24.setIcon(icon_e7c5114ccac3252e5077212165df0f95);
+        
+    
+        var popup_ad85a1ac26518039a2d1561de973f93d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e2dbd33fe2310a66948acc3ca209247 = $(`<div id="html_8e2dbd33fe2310a66948acc3ca209247" style="width: 100.0%; height: 100.0%;"><b>Restaurante El Estanquillo El 32</b><br>Calificación: 4.0<br>Cocinan rico</div>`)[0];
+                popup_ad85a1ac26518039a2d1561de973f93d.setContent(html_8e2dbd33fe2310a66948acc3ca209247);
+            
+        
+
+        marker_c1e7429348c73e426434af90093bda24.bindPopup(popup_ad85a1ac26518039a2d1561de973f93d)
+        ;
+
+        
+    
+    
+            marker_c1e7429348c73e426434af90093bda24.bindTooltip(
+                `<div>
+                     Restaurante El Estanquillo El 32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cf4c45be8785425f01866cf2ee8877e = L.marker(
+                [19.4964766, -99.1971223],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_b58943d6bc277e85007a3796d787b3e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1cf4c45be8785425f01866cf2ee8877e.setIcon(icon_b58943d6bc277e85007a3796d787b3e5);
+        
+    
+        var popup_374dac75854caff0b668ace99476a40f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_897e07ff3a7e90fbbb8cd4bc0bfa18ad = $(`<div id="html_897e07ff3a7e90fbbb8cd4bc0bfa18ad" style="width: 100.0%; height: 100.0%;"><b>Barbacoa Renatos</b><br>Calificación: 5.0<br>Exquisita atención</div>`)[0];
+                popup_374dac75854caff0b668ace99476a40f.setContent(html_897e07ff3a7e90fbbb8cd4bc0bfa18ad);
+            
+        
+
+        marker_1cf4c45be8785425f01866cf2ee8877e.bindPopup(popup_374dac75854caff0b668ace99476a40f)
+        ;
+
+        
+    
+    
+            marker_1cf4c45be8785425f01866cf2ee8877e.bindTooltip(
+                `<div>
+                     Barbacoa Renatos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3780cb9577b3cff635eaaba91c58815 = L.marker(
+                [19.3896156, -99.158868],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_5ea307be73ae96395a705bd46bbe2f08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3780cb9577b3cff635eaaba91c58815.setIcon(icon_5ea307be73ae96395a705bd46bbe2f08);
+        
+    
+        var popup_5318acfaebe96379fe04e9b6e9c98c96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc7c01c5f1e584433108ff35085eda95 = $(`<div id="html_cc7c01c5f1e584433108ff35085eda95" style="width: 100.0%; height: 100.0%;"><b>Piloncillo y Cascabel</b><br>Calificación: 5.0<br>Comida deliciós</div>`)[0];
+                popup_5318acfaebe96379fe04e9b6e9c98c96.setContent(html_cc7c01c5f1e584433108ff35085eda95);
+            
+        
+
+        marker_c3780cb9577b3cff635eaaba91c58815.bindPopup(popup_5318acfaebe96379fe04e9b6e9c98c96)
+        ;
+
+        
+    
+    
+            marker_c3780cb9577b3cff635eaaba91c58815.bindTooltip(
+                `<div>
+                     Piloncillo y Cascabel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_456a513ae165798578867457439b7f0d = L.marker(
+                [19.4795034, -99.1861473],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_8d625f111e49dac5aec83b7928700c28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_456a513ae165798578867457439b7f0d.setIcon(icon_8d625f111e49dac5aec83b7928700c28);
+        
+    
+        var popup_70056ee3d051bb531cd41ab735d31e02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79fa661cb42257762313e527428e6f5d = $(`<div id="html_79fa661cb42257762313e527428e6f5d" style="width: 100.0%; height: 100.0%;"><b>Los Tacos De Pepe</b><br>Calificación: 4.0<br>hambre madrugada fiesta</div>`)[0];
+                popup_70056ee3d051bb531cd41ab735d31e02.setContent(html_79fa661cb42257762313e527428e6f5d);
+            
+        
+
+        marker_456a513ae165798578867457439b7f0d.bindPopup(popup_70056ee3d051bb531cd41ab735d31e02)
+        ;
+
+        
+    
+    
+            marker_456a513ae165798578867457439b7f0d.bindTooltip(
+                `<div>
+                     Los Tacos De Pepe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_509f4e6d2dc176ebfbb28feb0e9495fa = L.marker(
+                [19.4308408, -99.1917115],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_0ad21fb64e4ce37c838a7442fe7583c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_509f4e6d2dc176ebfbb28feb0e9495fa.setIcon(icon_0ad21fb64e4ce37c838a7442fe7583c7);
+        
+    
+        var popup_659a372be5cf09dc20420a00bb73c438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6917d678be246e863d477c82df9bcd36 = $(`<div id="html_6917d678be246e863d477c82df9bcd36" style="width: 100.0%; height: 100.0%;"><b>Quintonil</b><br>Calificación: 5.0<br>Absolutely outstanding experience deserv one Michelin star at minimum only one dish was slightly but they were experimenting and it was still good dish not cheap prizar aligned with Michelin star restaurants in Europe but worth the money As everywherir in Mexico foreign wines are pricey It would have bear perfect experience if the waiter had not givir us attitude for giving him only tip for table of two</div>`)[0];
+                popup_659a372be5cf09dc20420a00bb73c438.setContent(html_6917d678be246e863d477c82df9bcd36);
+            
+        
+
+        marker_509f4e6d2dc176ebfbb28feb0e9495fa.bindPopup(popup_659a372be5cf09dc20420a00bb73c438)
+        ;
+
+        
+    
+    
+            marker_509f4e6d2dc176ebfbb28feb0e9495fa.bindTooltip(
+                `<div>
+                     Quintonil
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1784b93f16132aaba4dc3d8a67f1694d = L.marker(
+                [19.4312953, -99.1894127],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_c51d70e54d187c54e60a7ab2b5417229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1784b93f16132aaba4dc3d8a67f1694d.setIcon(icon_c51d70e54d187c54e60a7ab2b5417229);
+        
+    
+        var popup_8a4b06e194e032c61ed577ae533724a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1dc4f143a4f2de497fbd51a7e8c164b = $(`<div id="html_b1dc4f143a4f2de497fbd51a7e8c164b" style="width: 100.0%; height: 100.0%;"><b>Mexicano Masaryk</b><br>Calificación: 4.0<br>lugar ideal amigo terraza barra poder disfrutar cóctel comida rico Ahorita operar normalidad espacio amplio tendrás problema distancia malo personal distraído pan horno leña vista quierar poder comprar</div>`)[0];
+                popup_8a4b06e194e032c61ed577ae533724a5.setContent(html_b1dc4f143a4f2de497fbd51a7e8c164b);
+            
+        
+
+        marker_1784b93f16132aaba4dc3d8a67f1694d.bindPopup(popup_8a4b06e194e032c61ed577ae533724a5)
+        ;
+
+        
+    
+    
+            marker_1784b93f16132aaba4dc3d8a67f1694d.bindTooltip(
+                `<div>
+                     Mexicano Masaryk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c26daf005b427af425735bc951e703e5 = L.marker(
+                [19.474879, -99.197757],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_17747c277fc28d7322eb48109300125e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c26daf005b427af425735bc951e703e5.setIcon(icon_17747c277fc28d7322eb48109300125e);
+        
+    
+        var popup_8911b37b4204aedb50bd1fb26b6d8080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42e6e32be4edfba9cd9f6f926003d6ad = $(`<div id="html_42e6e32be4edfba9cd9f6f926003d6ad" style="width: 100.0%; height: 100.0%;"><b>Los Jarochos</b><br>Calificación: 5.0<br>confiable atención personal guant googl cubreboca distancia comensal rico platillo agradable lugar</div>`)[0];
+                popup_8911b37b4204aedb50bd1fb26b6d8080.setContent(html_42e6e32be4edfba9cd9f6f926003d6ad);
+            
+        
+
+        marker_c26daf005b427af425735bc951e703e5.bindPopup(popup_8911b37b4204aedb50bd1fb26b6d8080)
+        ;
+
+        
+    
+    
+            marker_c26daf005b427af425735bc951e703e5.bindTooltip(
+                `<div>
+                     Los Jarochos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bff7e38372a819dd6429891dff1e1d67 = L.marker(
+                [19.4359235, -99.2030366],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_8ce5f6c0d0087471ef3c3b206b6930ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bff7e38372a819dd6429891dff1e1d67.setIcon(icon_8ce5f6c0d0087471ef3c3b206b6930ab);
+        
+    
+        var popup_e73b6832f03d8981f88c1ad36b6e4831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd643ef71d198f828c7f3ad326f100b8 = $(`<div id="html_fd643ef71d198f828c7f3ad326f100b8" style="width: 100.0%; height: 100.0%;"><b>Prendes</b><br>Calificación: 5.0<br>Burna atención alimento garantía pedir</div>`)[0];
+                popup_e73b6832f03d8981f88c1ad36b6e4831.setContent(html_fd643ef71d198f828c7f3ad326f100b8);
+            
+        
+
+        marker_bff7e38372a819dd6429891dff1e1d67.bindPopup(popup_e73b6832f03d8981f88c1ad36b6e4831)
+        ;
+
+        
+    
+    
+            marker_bff7e38372a819dd6429891dff1e1d67.bindTooltip(
+                `<div>
+                     Prendes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a3d04f43e9bb0f4cf6cb1ca9e3688ea = L.marker(
+                [19.4334055, -99.1570178],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_c282771def9cdb273b4d0594fec06bdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a3d04f43e9bb0f4cf6cb1ca9e3688ea.setIcon(icon_c282771def9cdb273b4d0594fec06bdf);
+        
+    
+        var popup_0bdf9a719942e7ce83c52e986e3f205a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_281a89a9b3084bace594c5c4fc4cb4c1 = $(`<div id="html_281a89a9b3084bace594c5c4fc4cb4c1" style="width: 100.0%; height: 100.0%;"><b>Cantina Cuchilleros</b><br>Calificación: 5.0<br>excelente lugar recomeir</div>`)[0];
+                popup_0bdf9a719942e7ce83c52e986e3f205a.setContent(html_281a89a9b3084bace594c5c4fc4cb4c1);
+            
+        
+
+        marker_9a3d04f43e9bb0f4cf6cb1ca9e3688ea.bindPopup(popup_0bdf9a719942e7ce83c52e986e3f205a)
+        ;
+
+        
+    
+    
+            marker_9a3d04f43e9bb0f4cf6cb1ca9e3688ea.bindTooltip(
+                `<div>
+                     Cantina Cuchilleros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_938a198a43aaefe3c02db048dc5573ad = L.marker(
+                [19.3527689, -99.1614915],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_d06d9d84535384d03fe98c2e3dc250e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_938a198a43aaefe3c02db048dc5573ad.setIcon(icon_d06d9d84535384d03fe98c2e3dc250e5);
+        
+    
+        var popup_0871a7e94125cc73d339db61d3cf8ab5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e03d3e71dbf286f68483351f8615e91 = $(`<div id="html_4e03d3e71dbf286f68483351f8615e91" style="width: 100.0%; height: 100.0%;"><b>Coyoacan Market</b><br>Calificación: 3.0<br>lugar comer carnita charro puesto atención personal lugar</div>`)[0];
+                popup_0871a7e94125cc73d339db61d3cf8ab5.setContent(html_4e03d3e71dbf286f68483351f8615e91);
+            
+        
+
+        marker_938a198a43aaefe3c02db048dc5573ad.bindPopup(popup_0871a7e94125cc73d339db61d3cf8ab5)
+        ;
+
+        
+    
+    
+            marker_938a198a43aaefe3c02db048dc5573ad.bindTooltip(
+                `<div>
+                     Coyoacan Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b0bb68681809220fa52da946321ad94 = L.marker(
+                [19.2927158, -99.0583813],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_dc7e5513a632026cef8bfe50494f0bf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b0bb68681809220fa52da946321ad94.setIcon(icon_dc7e5513a632026cef8bfe50494f0bf2);
+        
+    
+        var popup_529b77f803c349f3e46bc35ca892de0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6fa72f9d3249209bbb1c1451f44d7fe = $(`<div id="html_f6fa72f9d3249209bbb1c1451f44d7fe" style="width: 100.0%; height: 100.0%;"><b>Molinillo</b><br>Calificación: 5.0<br>gustar lugar flan napolitano</div>`)[0];
+                popup_529b77f803c349f3e46bc35ca892de0c.setContent(html_f6fa72f9d3249209bbb1c1451f44d7fe);
+            
+        
+
+        marker_6b0bb68681809220fa52da946321ad94.bindPopup(popup_529b77f803c349f3e46bc35ca892de0c)
+        ;
+
+        
+    
+    
+            marker_6b0bb68681809220fa52da946321ad94.bindTooltip(
+                `<div>
+                     Molinillo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5e8ee91e600dc94d6e8666f987efc36 = L.marker(
+                [19.3682622, -99.2589406],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_aa998af5327e50ef9feb0bde302793cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5e8ee91e600dc94d6e8666f987efc36.setIcon(icon_aa998af5327e50ef9feb0bde302793cd);
+        
+    
+        var popup_c35d0cb03c2dc6b013a2532739ef0ab5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b05ebfda7e45d47bff2818d379e16b02 = $(`<div id="html_b05ebfda7e45d47bff2818d379e16b02" style="width: 100.0%; height: 100.0%;"><b>La Imperial Samara Santa Fe</b><br>Calificación: 4.0<br>lamentablemente quitar cosa menú</div>`)[0];
+                popup_c35d0cb03c2dc6b013a2532739ef0ab5.setContent(html_b05ebfda7e45d47bff2818d379e16b02);
+            
+        
+
+        marker_e5e8ee91e600dc94d6e8666f987efc36.bindPopup(popup_c35d0cb03c2dc6b013a2532739ef0ab5)
+        ;
+
+        
+    
+    
+            marker_e5e8ee91e600dc94d6e8666f987efc36.bindTooltip(
+                `<div>
+                     La Imperial Samara Santa Fe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70fd09a6af1939dfcf7f9a7f8b74fd66 = L.marker(
+                [19.1970267, -99.0282524],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_958aa5a4a58b6a27e93073562984a917 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_70fd09a6af1939dfcf7f9a7f8b74fd66.setIcon(icon_958aa5a4a58b6a27e93073562984a917);
+        
+    
+        var popup_1efbb533c300daac73bbdc537ab3529f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e8459d8681d29f264c3ba5b1bd01989 = $(`<div id="html_2e8459d8681d29f264c3ba5b1bd01989" style="width: 100.0%; height: 100.0%;"><b>Carnitas El Amigo Campos</b><br>Calificación: 4.0<br>sabor servida</div>`)[0];
+                popup_1efbb533c300daac73bbdc537ab3529f.setContent(html_2e8459d8681d29f264c3ba5b1bd01989);
+            
+        
+
+        marker_70fd09a6af1939dfcf7f9a7f8b74fd66.bindPopup(popup_1efbb533c300daac73bbdc537ab3529f)
+        ;
+
+        
+    
+    
+            marker_70fd09a6af1939dfcf7f9a7f8b74fd66.bindTooltip(
+                `<div>
+                     Carnitas El Amigo Campos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdbc3c3238455de4159ef07f2fef2648 = L.marker(
+                [19.436067, -99.137811],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_ec4278aba4c3f3be5df99780292bd608 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bdbc3c3238455de4159ef07f2fef2648.setIcon(icon_ec4278aba4c3f3be5df99780292bd608);
+        
+    
+        var popup_a93a0087f66abc26a4da3ba476b634cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a916ba67e8c21740079e0c7f24d82803 = $(`<div id="html_a916ba67e8c21740079e0c7f24d82803" style="width: 100.0%; height: 100.0%;"><b>Limosneros</b><br>Calificación: 5.0<br>excelente lugar decoración genial atención platillo bonito sabor rico porción platillo regular precio moderado lugar bonito cerrar</div>`)[0];
+                popup_a93a0087f66abc26a4da3ba476b634cb.setContent(html_a916ba67e8c21740079e0c7f24d82803);
+            
+        
+
+        marker_bdbc3c3238455de4159ef07f2fef2648.bindPopup(popup_a93a0087f66abc26a4da3ba476b634cb)
+        ;
+
+        
+    
+    
+            marker_bdbc3c3238455de4159ef07f2fef2648.bindTooltip(
+                `<div>
+                     Limosneros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4e4620d81f8611a85e9473bd8f82046 = L.marker(
+                [19.4456487, -99.111085],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_b5bb700000aac4d8751ee3b49940b539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4e4620d81f8611a85e9473bd8f82046.setIcon(icon_b5bb700000aac4d8751ee3b49940b539);
+        
+    
+        var popup_a0a768dd8da38b38ea3cdca28c9c4ddc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b317882199e159698758d8c74d5cf447 = $(`<div id="html_b317882199e159698758d8c74d5cf447" style="width: 100.0%; height: 100.0%;"><b>Carnes Asadas Mi Rancho</b><br>Calificación: 5.0<br>rico taco variedad pedir</div>`)[0];
+                popup_a0a768dd8da38b38ea3cdca28c9c4ddc.setContent(html_b317882199e159698758d8c74d5cf447);
+            
+        
+
+        marker_c4e4620d81f8611a85e9473bd8f82046.bindPopup(popup_a0a768dd8da38b38ea3cdca28c9c4ddc)
+        ;
+
+        
+    
+    
+            marker_c4e4620d81f8611a85e9473bd8f82046.bindTooltip(
+                `<div>
+                     Carnes Asadas Mi Rancho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d1c482f9790d082082da95344d94349 = L.marker(
+                [19.3362543, -99.1966222],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_ad0ad419a5c711b627e9ddd19e629a25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d1c482f9790d082082da95344d94349.setIcon(icon_ad0ad419a5c711b627e9ddd19e629a25);
+        
+    
+        var popup_741ee8817b5e4ea424e3e62b4bd2619a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f388b9968c45c023fba5e51db46ce3e = $(`<div id="html_3f388b9968c45c023fba5e51db46ce3e" style="width: 100.0%; height: 100.0%;"><b>Los Arcos</b><br>Calificación: 4.0<br>calidad alimento valer pena protocolo adecuado tocar gente esperar largo atención lento</div>`)[0];
+                popup_741ee8817b5e4ea424e3e62b4bd2619a.setContent(html_3f388b9968c45c023fba5e51db46ce3e);
+            
+        
+
+        marker_8d1c482f9790d082082da95344d94349.bindPopup(popup_741ee8817b5e4ea424e3e62b4bd2619a)
+        ;
+
+        
+    
+    
+            marker_8d1c482f9790d082082da95344d94349.bindTooltip(
+                `<div>
+                     Los Arcos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d95ca14b48d7654fdeda292b488f91b = L.marker(
+                [19.4921647, -99.1208318],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_fcc6a5a0eec94220f1e0880a4fb5b5ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d95ca14b48d7654fdeda292b488f91b.setIcon(icon_fcc6a5a0eec94220f1e0880a4fb5b5ab);
+        
+    
+        var popup_45494307f0d9174c72a21f32906357cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_636ac560e8a02e11c76f958f7953623b = $(`<div id="html_636ac560e8a02e11c76f958f7953623b" style="width: 100.0%; height: 100.0%;"><b>Monte Cristo</b><br>Calificación: 5.0<br>deliciós comida servicio</div>`)[0];
+                popup_45494307f0d9174c72a21f32906357cc.setContent(html_636ac560e8a02e11c76f958f7953623b);
+            
+        
+
+        marker_9d95ca14b48d7654fdeda292b488f91b.bindPopup(popup_45494307f0d9174c72a21f32906357cc)
+        ;
+
+        
+    
+    
+            marker_9d95ca14b48d7654fdeda292b488f91b.bindTooltip(
+                `<div>
+                     Monte Cristo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad6b0e43d6ca65634d3a73036a170bb5 = L.marker(
+                [19.281699, -99.2179649],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_53792d9b96fcaf2c0492a0ea53f38afc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad6b0e43d6ca65634d3a73036a170bb5.setIcon(icon_53792d9b96fcaf2c0492a0ea53f38afc);
+        
+    
+        var popup_63aef1ce7d6f4df49813a12e0bdd07fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ff80ea7b2dc591f0da2b93ce6a80501 = $(`<div id="html_5ff80ea7b2dc591f0da2b93ce6a80501" style="width: 100.0%; height: 100.0%;"><b>Pozoleria Las Cazuelas</b><br>Calificación: 5.0<br>excelente servicio pozole sabor delicioso</div>`)[0];
+                popup_63aef1ce7d6f4df49813a12e0bdd07fd.setContent(html_5ff80ea7b2dc591f0da2b93ce6a80501);
+            
+        
+
+        marker_ad6b0e43d6ca65634d3a73036a170bb5.bindPopup(popup_63aef1ce7d6f4df49813a12e0bdd07fd)
+        ;
+
+        
+    
+    
+            marker_ad6b0e43d6ca65634d3a73036a170bb5.bindTooltip(
+                `<div>
+                     Pozoleria Las Cazuelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ce25b3eb046345a68e8496d82a16a50 = L.marker(
+                [19.3768882, -99.1745989],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a30e8c481fa237dc47ba1e3ebd247fd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ce25b3eb046345a68e8496d82a16a50.setIcon(icon_a30e8c481fa237dc47ba1e3ebd247fd2);
+        
+    
+        var popup_de530da41a10b0d088799fd462f77d4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_974c12bcd2c89a8ff823a7438ac41e6f = $(`<div id="html_974c12bcd2c89a8ff823a7438ac41e6f" style="width: 100.0%; height: 100.0%;"><b>Quesadillas de doña Juanita</b><br>Calificación: 5.0<br>Exquisitas</div>`)[0];
+                popup_de530da41a10b0d088799fd462f77d4a.setContent(html_974c12bcd2c89a8ff823a7438ac41e6f);
+            
+        
+
+        marker_7ce25b3eb046345a68e8496d82a16a50.bindPopup(popup_de530da41a10b0d088799fd462f77d4a)
+        ;
+
+        
+    
+    
+            marker_7ce25b3eb046345a68e8496d82a16a50.bindTooltip(
+                `<div>
+                     Quesadillas de doña Juanita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_406c2143c718f7517f372451aac2cdb7 = L.marker(
+                [19.368069, -99.292519],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_d97f35ce214588e507f3e62e4ea47039 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_406c2143c718f7517f372451aac2cdb7.setIcon(icon_d97f35ce214588e507f3e62e4ea47039);
+        
+    
+        var popup_7831b294f5b2f8a5ae76fd01083e1ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8fd6919482bd636b39a943fb5fc7acf = $(`<div id="html_a8fd6919482bd636b39a943fb5fc7acf" style="width: 100.0%; height: 100.0%;"><b>Birria El Compadre (Restaurante-Bar)</b><br>Calificación: 5.0<br>riko birrio menú riko consome</div>`)[0];
+                popup_7831b294f5b2f8a5ae76fd01083e1ed3.setContent(html_a8fd6919482bd636b39a943fb5fc7acf);
+            
+        
+
+        marker_406c2143c718f7517f372451aac2cdb7.bindPopup(popup_7831b294f5b2f8a5ae76fd01083e1ed3)
+        ;
+
+        
+    
+    
+            marker_406c2143c718f7517f372451aac2cdb7.bindTooltip(
+                `<div>
+                     Birria El Compadre (Restaurante-Bar)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa875a3ab14b8c1b6df02b42778c89f1 = L.marker(
+                [19.3021759, -99.1672046],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_4f42f5e036574ef76a2dc815fab3e870 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_aa875a3ab14b8c1b6df02b42778c89f1.setIcon(icon_4f42f5e036574ef76a2dc815fab3e870);
+        
+    
+        var popup_f55088228c37c0d2d1c80b26f1fe1808 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3424595239464b23fa16129085cc512c = $(`<div id="html_3424595239464b23fa16129085cc512c" style="width: 100.0%; height: 100.0%;"><b>El Remolkito del Sirloin</b><br>Calificación: 3.0<br>sabor buenísimo atención pésimo salsa publicar ruta garnacha</div>`)[0];
+                popup_f55088228c37c0d2d1c80b26f1fe1808.setContent(html_3424595239464b23fa16129085cc512c);
+            
+        
+
+        marker_aa875a3ab14b8c1b6df02b42778c89f1.bindPopup(popup_f55088228c37c0d2d1c80b26f1fe1808)
+        ;
+
+        
+    
+    
+            marker_aa875a3ab14b8c1b6df02b42778c89f1.bindTooltip(
+                `<div>
+                     El Remolkito del Sirloin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec766ac9354412b70471aa33f6614e6e = L.marker(
+                [19.4339192, -99.1347776],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_0502fecc998bec39be150978b4544bd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec766ac9354412b70471aa33f6614e6e.setIcon(icon_0502fecc998bec39be150978b4544bd5);
+        
+    
+        var popup_e080e47ef262552dd7aed6d033110ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ed158c55ddd7255e3fe8e838740d059 = $(`<div id="html_1ed158c55ddd7255e3fe8e838740d059" style="width: 100.0%; height: 100.0%;"><b>Mercaderes</b><br>Calificación: 4.0<br>clásico centro histórico llamar Mercaderes estilo cocina totalmente contemporáneo mexicano tradición toque elegancia ofrecer restaurant deber disfrutar estar visita Zócalo CDMX</div>`)[0];
+                popup_e080e47ef262552dd7aed6d033110ef5.setContent(html_1ed158c55ddd7255e3fe8e838740d059);
+            
+        
+
+        marker_ec766ac9354412b70471aa33f6614e6e.bindPopup(popup_e080e47ef262552dd7aed6d033110ef5)
+        ;
+
+        
+    
+    
+            marker_ec766ac9354412b70471aa33f6614e6e.bindTooltip(
+                `<div>
+                     Mercaderes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_866d761239502dbdd5a1e2c6b54ee5c7 = L.marker(
+                [19.4025492, -99.1777668],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_ca55b6aad7af31b5397bcbab625b0d42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_866d761239502dbdd5a1e2c6b54ee5c7.setIcon(icon_ca55b6aad7af31b5397bcbab625b0d42);
+        
+    
+        var popup_65d8b062e6a5a3072a9fb02bfb5ee88a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a1f8c6854103ce10d9fc71613c1ef81 = $(`<div id="html_5a1f8c6854103ce10d9fc71613c1ef81" style="width: 100.0%; height: 100.0%;"><b>Escandon Market</b><br>Calificación: 5.0<br>control entrar comprar evitar contagio</div>`)[0];
+                popup_65d8b062e6a5a3072a9fb02bfb5ee88a.setContent(html_5a1f8c6854103ce10d9fc71613c1ef81);
+            
+        
+
+        marker_866d761239502dbdd5a1e2c6b54ee5c7.bindPopup(popup_65d8b062e6a5a3072a9fb02bfb5ee88a)
+        ;
+
+        
+    
+    
+            marker_866d761239502dbdd5a1e2c6b54ee5c7.bindTooltip(
+                `<div>
+                     Escandon Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e68738b6746bbcdd9d32593c8d892719 = L.marker(
+                [19.4788592, -99.1512954],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2f7955d50bcfa4b5a3f956a3f38c5c04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e68738b6746bbcdd9d32593c8d892719.setIcon(icon_2f7955d50bcfa4b5a3f956a3f38c5c04);
+        
+    
+        var popup_d68cb7cd83413265c3f34309bcfec21f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c1e078e846a447c89133aafef1e9c46 = $(`<div id="html_5c1e078e846a447c89133aafef1e9c46" style="width: 100.0%; height: 100.0%;"><b>Las Delicias</b><br>Calificación: 5.0<br>pan muerto ricura barato comparación lugar recomeir</div>`)[0];
+                popup_d68cb7cd83413265c3f34309bcfec21f.setContent(html_5c1e078e846a447c89133aafef1e9c46);
+            
+        
+
+        marker_e68738b6746bbcdd9d32593c8d892719.bindPopup(popup_d68cb7cd83413265c3f34309bcfec21f)
+        ;
+
+        
+    
+    
+            marker_e68738b6746bbcdd9d32593c8d892719.bindTooltip(
+                `<div>
+                     Las Delicias
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8a3b96973e30792196e159d42b88d31 = L.marker(
+                [19.326378, -99.282982],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_76ecbd49205e21acffbb4edeff772940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8a3b96973e30792196e159d42b88d31.setIcon(icon_76ecbd49205e21acffbb4edeff772940);
+        
+    
+        var popup_d296c04e909d109dc6efdf02a35d2541 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a44c71792a780463a6679af27724260e = $(`<div id="html_a44c71792a780463a6679af27724260e" style="width: 100.0%; height: 100.0%;"><b>El Antojito</b><br>Calificación: 4.0<br>atención comida precio</div>`)[0];
+                popup_d296c04e909d109dc6efdf02a35d2541.setContent(html_a44c71792a780463a6679af27724260e);
+            
+        
+
+        marker_d8a3b96973e30792196e159d42b88d31.bindPopup(popup_d296c04e909d109dc6efdf02a35d2541)
+        ;
+
+        
+    
+    
+            marker_d8a3b96973e30792196e159d42b88d31.bindTooltip(
+                `<div>
+                     El Antojito
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92b8ec744f9cf68af45777f878cf5cce = L.marker(
+                [19.36947, -99.1438011],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_90276973a3d5b6fdabeae8bb38e78f68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92b8ec744f9cf68af45777f878cf5cce.setIcon(icon_90276973a3d5b6fdabeae8bb38e78f68);
+        
+    
+        var popup_a1ba04b2a991c39bc521dd2b8ce534ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f150faea47bac1cdd8031b42753413a7 = $(`<div id="html_f150faea47bac1cdd8031b42753413a7" style="width: 100.0%; height: 100.0%;"><b>Huaraches los portales</b><br>Calificación: 5.0<br>familia gustar pedir arrachera carne super suave huarach duro requerir cuchillo tener filo resumen super recomendable</div>`)[0];
+                popup_a1ba04b2a991c39bc521dd2b8ce534ed.setContent(html_f150faea47bac1cdd8031b42753413a7);
+            
+        
+
+        marker_92b8ec744f9cf68af45777f878cf5cce.bindPopup(popup_a1ba04b2a991c39bc521dd2b8ce534ed)
+        ;
+
+        
+    
+    
+            marker_92b8ec744f9cf68af45777f878cf5cce.bindTooltip(
+                `<div>
+                     Huaraches los portales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91ffafb6183806d53375184e196437a7 = L.marker(
+                [19.494516, -99.207191],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_4eaca557b274bd66ffedb3d71e5659fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91ffafb6183806d53375184e196437a7.setIcon(icon_4eaca557b274bd66ffedb3d71e5659fb);
+        
+    
+        var popup_89367a765c302f0f9d1328f220c3a5c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1331b3f81b12394db5ec5ec232e4444d = $(`<div id="html_1331b3f81b12394db5ec5ec232e4444d" style="width: 100.0%; height: 100.0%;"><b>El Rincón Gourmet</b><br>Calificación: 4.0<br>pancita</div>`)[0];
+                popup_89367a765c302f0f9d1328f220c3a5c4.setContent(html_1331b3f81b12394db5ec5ec232e4444d);
+            
+        
+
+        marker_91ffafb6183806d53375184e196437a7.bindPopup(popup_89367a765c302f0f9d1328f220c3a5c4)
+        ;
+
+        
+    
+    
+            marker_91ffafb6183806d53375184e196437a7.bindTooltip(
+                `<div>
+                     El Rincón Gourmet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f6b4a5f7ec883bff388ecbe78f450cf = L.marker(
+                [19.4847126, -99.1199997],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a7a7a302d93f8c4eaa58c36b0dc0f330 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f6b4a5f7ec883bff388ecbe78f450cf.setIcon(icon_a7a7a302d93f8c4eaa58c36b0dc0f330);
+        
+    
+        var popup_b01f37e58366328c4eaec810a49ee82f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3128a624b6fdd303ab5f520ec9df96dd = $(`<div id="html_3128a624b6fdd303ab5f520ec9df96dd" style="width: 100.0%; height: 100.0%;"><b>Sahmich</b><br>Calificación: 5.0<br>variedad sabor</div>`)[0];
+                popup_b01f37e58366328c4eaec810a49ee82f.setContent(html_3128a624b6fdd303ab5f520ec9df96dd);
+            
+        
+
+        marker_0f6b4a5f7ec883bff388ecbe78f450cf.bindPopup(popup_b01f37e58366328c4eaec810a49ee82f)
+        ;
+
+        
+    
+    
+            marker_0f6b4a5f7ec883bff388ecbe78f450cf.bindTooltip(
+                `<div>
+                     Sahmich
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7bb41c7770935275d32feb17ca0e56c = L.marker(
+                [19.4110103, -99.1728748],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_7d42f29e223badf604e0d23c0e349cc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7bb41c7770935275d32feb17ca0e56c.setIcon(icon_7d42f29e223badf604e0d23c0e349cc8);
+        
+    
+        var popup_52e2fc85dea193f3932307c296977bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e664198691fd103b7dee1e1d82ca134 = $(`<div id="html_3e664198691fd103b7dee1e1d82ca134" style="width: 100.0%; height: 100.0%;"><b>La Guerrerense</b><br>Calificación: 5.0<br>sabor excelente servicio</div>`)[0];
+                popup_52e2fc85dea193f3932307c296977bb3.setContent(html_3e664198691fd103b7dee1e1d82ca134);
+            
+        
+
+        marker_d7bb41c7770935275d32feb17ca0e56c.bindPopup(popup_52e2fc85dea193f3932307c296977bb3)
+        ;
+
+        
+    
+    
+            marker_d7bb41c7770935275d32feb17ca0e56c.bindTooltip(
+                `<div>
+                     La Guerrerense
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4236dccf0df2d43212ee7f5d3450289c = L.marker(
+                [19.3862089, -99.2523063],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a1dada93614c0166b4bedd65eb6b63aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4236dccf0df2d43212ee7f5d3450289c.setIcon(icon_a1dada93614c0166b4bedd65eb6b63aa);
+        
+    
+        var popup_de5d7f324c86685fa244f7e82f229a8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f58a72e48ef05ebb06cb9b85b8c6ca4 = $(`<div id="html_2f58a72e48ef05ebb06cb9b85b8c6ca4" style="width: 100.0%; height: 100.0%;"><b>Costa Guadiana</b><br>Calificación: 5.0<br>comida Mexicana alto nivel serio servicio carta vino encantar tener Vinos Mexicanos lugar bonito pasar rato com</div>`)[0];
+                popup_de5d7f324c86685fa244f7e82f229a8d.setContent(html_2f58a72e48ef05ebb06cb9b85b8c6ca4);
+            
+        
+
+        marker_4236dccf0df2d43212ee7f5d3450289c.bindPopup(popup_de5d7f324c86685fa244f7e82f229a8d)
+        ;
+
+        
+    
+    
+            marker_4236dccf0df2d43212ee7f5d3450289c.bindTooltip(
+                `<div>
+                     Costa Guadiana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b712060aab1e1760324621c3669f4032 = L.marker(
+                [19.3919477, -99.1834947],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_9bc51b21b8893a866050de5110e3c678 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b712060aab1e1760324621c3669f4032.setIcon(icon_9bc51b21b8893a866050de5110e3c678);
+        
+    
+        var popup_3ebb76a3674a00dc52c7e9184aa21d6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43298d4d23881ec9e6b5918671ceac60 = $(`<div id="html_43298d4d23881ec9e6b5918671ceac60" style="width: 100.0%; height: 100.0%;"><b>San Pedro de los Pinos Market</b><br>Calificación: 5.0<br>lugar comer comprar verdura abarrot</div>`)[0];
+                popup_3ebb76a3674a00dc52c7e9184aa21d6e.setContent(html_43298d4d23881ec9e6b5918671ceac60);
+            
+        
+
+        marker_b712060aab1e1760324621c3669f4032.bindPopup(popup_3ebb76a3674a00dc52c7e9184aa21d6e)
+        ;
+
+        
+    
+    
+            marker_b712060aab1e1760324621c3669f4032.bindTooltip(
+                `<div>
+                     San Pedro de los Pinos Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96f0d47823dee75ccc8857735fee370d = L.marker(
+                [19.4339417, -99.1345444],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a2f2b56f7bc743a31aad4798159eec56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96f0d47823dee75ccc8857735fee370d.setIcon(icon_a2f2b56f7bc743a31aad4798159eec56);
+        
+    
+        var popup_60d7b5a02b0df59d01a3e81976022c97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c00e390f5733303501df274e6903f0fc = $(`<div id="html_c00e390f5733303501df274e6903f0fc" style="width: 100.0%; height: 100.0%;"><b>El Balcón del Zócalo</b><br>Calificación: 2.0<br>mesera atento poder reservar persona extranjero llegar dejar</div>`)[0];
+                popup_60d7b5a02b0df59d01a3e81976022c97.setContent(html_c00e390f5733303501df274e6903f0fc);
+            
+        
+
+        marker_96f0d47823dee75ccc8857735fee370d.bindPopup(popup_60d7b5a02b0df59d01a3e81976022c97)
+        ;
+
+        
+    
+    
+            marker_96f0d47823dee75ccc8857735fee370d.bindTooltip(
+                `<div>
+                     El Balcón del Zócalo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1315dd91a1ee53fdffaa97d8f7376f3e = L.marker(
+                [19.4896304, -99.1856006],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_8f51ceacf3e5307d2252ad9aee064afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1315dd91a1ee53fdffaa97d8f7376f3e.setIcon(icon_8f51ceacf3e5307d2252ad9aee064afa);
+        
+    
+        var popup_0c2811060e4be2c36622b65950d91dbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82f55598e87b9a76e316c6bc495bcff8 = $(`<div id="html_82f55598e87b9a76e316c6bc495bcff8" style="width: 100.0%; height: 100.0%;"><b>Mi Pueblo Nuevo</b><br>Calificación: 5.0<br>excelente lugar comer birrio quesadilla queso</div>`)[0];
+                popup_0c2811060e4be2c36622b65950d91dbc.setContent(html_82f55598e87b9a76e316c6bc495bcff8);
+            
+        
+
+        marker_1315dd91a1ee53fdffaa97d8f7376f3e.bindPopup(popup_0c2811060e4be2c36622b65950d91dbc)
+        ;
+
+        
+    
+    
+            marker_1315dd91a1ee53fdffaa97d8f7376f3e.bindTooltip(
+                `<div>
+                     Mi Pueblo Nuevo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12144635547ff8099fcdcd41df1178f4 = L.marker(
+                [19.3063095, -99.0676109],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_51dafcaab4443004b5d01ac25fe65154 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12144635547ff8099fcdcd41df1178f4.setIcon(icon_51dafcaab4443004b5d01ac25fe65154);
+        
+    
+        var popup_7fd3ab557b8374f7ac56a242c80dfc54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b4235bc5a8466c7b3e7cdc1586f298e = $(`<div id="html_2b4235bc5a8466c7b3e7cdc1586f298e" style="width: 100.0%; height: 100.0%;"><b>EL Callejon De Los Abuelos</b><br>Calificación: 5.0<br>lugar acogedor tranquilo agradable poquito caro</div>`)[0];
+                popup_7fd3ab557b8374f7ac56a242c80dfc54.setContent(html_2b4235bc5a8466c7b3e7cdc1586f298e);
+            
+        
+
+        marker_12144635547ff8099fcdcd41df1178f4.bindPopup(popup_7fd3ab557b8374f7ac56a242c80dfc54)
+        ;
+
+        
+    
+    
+            marker_12144635547ff8099fcdcd41df1178f4.bindTooltip(
+                `<div>
+                     EL Callejon De Los Abuelos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3b6a61f3a62517331b67348aa9130ad = L.marker(
+                [19.3646942, -99.2594169],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_6f3d11ccbcccdec0dee41a6dad474f9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3b6a61f3a62517331b67348aa9130ad.setIcon(icon_6f3d11ccbcccdec0dee41a6dad474f9c);
+        
+    
+        var popup_883dd38f1ad71e1c524168a688758a9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_596ea7b62379782f869ea47696f455e4 = $(`<div id="html_596ea7b62379782f869ea47696f455e4" style="width: 100.0%; height: 100.0%;"><b>Toro</b><br>Calificación: 5.0<br>agradable lugar</div>`)[0];
+                popup_883dd38f1ad71e1c524168a688758a9b.setContent(html_596ea7b62379782f869ea47696f455e4);
+            
+        
+
+        marker_f3b6a61f3a62517331b67348aa9130ad.bindPopup(popup_883dd38f1ad71e1c524168a688758a9b)
+        ;
+
+        
+    
+    
+            marker_f3b6a61f3a62517331b67348aa9130ad.bindTooltip(
+                `<div>
+                     Toro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71db06f058272c725353e6ce92487d1c = L.marker(
+                [19.3067458, -99.0496919],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_46b5157053e24ccac9151405ce6adb44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71db06f058272c725353e6ce92487d1c.setIcon(icon_46b5157053e24ccac9151405ce6adb44);
+        
+    
+        var popup_55c946b80b69cbf32b6c64983dcbb96a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9b3d3661743f0e94bfc62823a1624bc = $(`<div id="html_f9b3d3661743f0e94bfc62823a1624bc" style="width: 100.0%; height: 100.0%;"><b>Comedor Comunitario ''FLORES'' N.636</b><br>Calificación: 5.0<br>rico comida atención recomendable amoliamente</div>`)[0];
+                popup_55c946b80b69cbf32b6c64983dcbb96a.setContent(html_f9b3d3661743f0e94bfc62823a1624bc);
+            
+        
+
+        marker_71db06f058272c725353e6ce92487d1c.bindPopup(popup_55c946b80b69cbf32b6c64983dcbb96a)
+        ;
+
+        
+    
+    
+            marker_71db06f058272c725353e6ce92487d1c.bindTooltip(
+                `<div>
+                     Comedor Comunitario ''FLORES'' N.636
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1684d0e734e7eedb3463b26c35539bfd = L.marker(
+                [19.1978149, -99.0136978],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_300b09ca3de9c4fcde4ba580c326bbc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1684d0e734e7eedb3463b26c35539bfd.setIcon(icon_300b09ca3de9c4fcde4ba580c326bbc9);
+        
+    
+        var popup_ddb39345fb4bfb6fa1d7beea56d8636f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f7637121d3b4ce4ebcf8df97d99c236 = $(`<div id="html_1f7637121d3b4ce4ebcf8df97d99c236" style="width: 100.0%; height: 100.0%;"><b>Pulques Artesanales Milpa Alta</b><br>Calificación: 5.0<br>excelente curado clásico curado nogada fresa crema temporada higo mango etcétera</div>`)[0];
+                popup_ddb39345fb4bfb6fa1d7beea56d8636f.setContent(html_1f7637121d3b4ce4ebcf8df97d99c236);
+            
+        
+
+        marker_1684d0e734e7eedb3463b26c35539bfd.bindPopup(popup_ddb39345fb4bfb6fa1d7beea56d8636f)
+        ;
+
+        
+    
+    
+            marker_1684d0e734e7eedb3463b26c35539bfd.bindTooltip(
+                `<div>
+                     Pulques Artesanales Milpa Alta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_911c49e0afcd66bf38232bf8d04a9438 = L.marker(
+                [19.4768717, -99.1626985],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_869722cfbd2c1d94cf22ebb331471197 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_911c49e0afcd66bf38232bf8d04a9438.setIcon(icon_869722cfbd2c1d94cf22ebb331471197);
+        
+    
+        var popup_42382085dc02030e2349e7ff62030f3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c4059bf66883e83dc45441e3bb66b20 = $(`<div id="html_3c4059bf66883e83dc45441e3bb66b20" style="width: 100.0%; height: 100.0%;"><b>Gorditas michoacanas cano</b><br>Calificación: 4.0<br>gordita michoacana</div>`)[0];
+                popup_42382085dc02030e2349e7ff62030f3f.setContent(html_3c4059bf66883e83dc45441e3bb66b20);
+            
+        
+
+        marker_911c49e0afcd66bf38232bf8d04a9438.bindPopup(popup_42382085dc02030e2349e7ff62030f3f)
+        ;
+
+        
+    
+    
+            marker_911c49e0afcd66bf38232bf8d04a9438.bindTooltip(
+                `<div>
+                     Gorditas michoacanas cano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1dda5a8c1bf2a40976df47d73f9bcfb = L.marker(
+                [19.4742523, -99.1526228],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_10f56931ab0c98f311f6669dc27fe705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1dda5a8c1bf2a40976df47d73f9bcfb.setIcon(icon_10f56931ab0c98f311f6669dc27fe705);
+        
+    
+        var popup_fd44952a20c4bd20cad910256f8e171a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ea9ba45d0e9e05d5136baf82a053ff7 = $(`<div id="html_8ea9ba45d0e9e05d5136baf82a053ff7" style="width: 100.0%; height: 100.0%;"><b>Cochinita Pibil Kooben</b><br>Calificación: 5.0<br>cochinita mundo excelente servicio sabor</div>`)[0];
+                popup_fd44952a20c4bd20cad910256f8e171a.setContent(html_8ea9ba45d0e9e05d5136baf82a053ff7);
+            
+        
+
+        marker_d1dda5a8c1bf2a40976df47d73f9bcfb.bindPopup(popup_fd44952a20c4bd20cad910256f8e171a)
+        ;
+
+        
+    
+    
+            marker_d1dda5a8c1bf2a40976df47d73f9bcfb.bindTooltip(
+                `<div>
+                     Cochinita Pibil Kooben
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48f8e11b4fe82db7a26c4905425bfab7 = L.marker(
+                [19.4220784, -99.1641171],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_b385bc48ba0d7e79c3e99c761cc3c98e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48f8e11b4fe82db7a26c4905425bfab7.setIcon(icon_b385bc48ba0d7e79c3e99c761cc3c98e);
+        
+    
+        var popup_dc9962e4be5b6318a3b60d454ac0c0e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df6d0c290763cd492ea9b04912904dea = $(`<div id="html_df6d0c290763cd492ea9b04912904dea" style="width: 100.0%; height: 100.0%;"><b>Bar Lepanto</b><br>Calificación: 5.0<br>sabor comida</div>`)[0];
+                popup_dc9962e4be5b6318a3b60d454ac0c0e7.setContent(html_df6d0c290763cd492ea9b04912904dea);
+            
+        
+
+        marker_48f8e11b4fe82db7a26c4905425bfab7.bindPopup(popup_dc9962e4be5b6318a3b60d454ac0c0e7)
+        ;
+
+        
+    
+    
+            marker_48f8e11b4fe82db7a26c4905425bfab7.bindTooltip(
+                `<div>
+                     Bar Lepanto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b990d694b1dd48f49107a3418a5fc526 = L.marker(
+                [19.4087005, -99.1763138],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_589791522f5139c321d819df99e7bc15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b990d694b1dd48f49107a3418a5fc526.setIcon(icon_589791522f5139c321d819df99e7bc15);
+        
+    
+        var popup_60007466fdd90321a1ecb44b665bc585 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a65fe52cc6181242f6c9c9e6028fcb5c = $(`<div id="html_a65fe52cc6181242f6c9c9e6028fcb5c" style="width: 100.0%; height: 100.0%;"><b>Tacos Richard</b><br>Calificación: 5.0<br>Excelente</div>`)[0];
+                popup_60007466fdd90321a1ecb44b665bc585.setContent(html_a65fe52cc6181242f6c9c9e6028fcb5c);
+            
+        
+
+        marker_b990d694b1dd48f49107a3418a5fc526.bindPopup(popup_60007466fdd90321a1ecb44b665bc585)
+        ;
+
+        
+    
+    
+            marker_b990d694b1dd48f49107a3418a5fc526.bindTooltip(
+                `<div>
+                     Tacos Richard
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8b81b5177e3b1927aa2b48fad82504c = L.marker(
+                [19.4313389, -99.1900472],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2a92eaf5ee7b2e8194e833caae15a78b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8b81b5177e3b1927aa2b48fad82504c.setIcon(icon_2a92eaf5ee7b2e8194e833caae15a78b);
+        
+    
+        var popup_3930daabc458667decdb9cf482f032b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ed473c56038fa1124beac22a0b7bba1 = $(`<div id="html_2ed473c56038fa1124beac22a0b7bba1" style="width: 100.0%; height: 100.0%;"><b>Porfirio's Masaryk | Restaurante de comida mexicana</b><br>Calificación: 5.0<br>pasa lugar pasar rato</div>`)[0];
+                popup_3930daabc458667decdb9cf482f032b9.setContent(html_2ed473c56038fa1124beac22a0b7bba1);
+            
+        
+
+        marker_c8b81b5177e3b1927aa2b48fad82504c.bindPopup(popup_3930daabc458667decdb9cf482f032b9)
+        ;
+
+        
+    
+    
+            marker_c8b81b5177e3b1927aa2b48fad82504c.bindTooltip(
+                `<div>
+                     Porfirio's Masaryk | Restaurante de comida mexicana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed0a134073b73793640bb24f02bc1fbd = L.marker(
+                [19.3522873, -99.157381],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_49c1bde0b9823c5010b6772b3b824ebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed0a134073b73793640bb24f02bc1fbd.setIcon(icon_49c1bde0b9823c5010b6772b3b824ebc);
+        
+    
+        var popup_28b4a46741030239e3018682b607850a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80e0a291b4cd086eb1f51ca8ad6ba395 = $(`<div id="html_80e0a291b4cd086eb1f51ca8ad6ba395" style="width: 100.0%; height: 100.0%;"><b>El Olmo Azul</b><br>Calificación: 4.0<br>ojalá tener UberEats estilo aceptar tarjeta lugar</div>`)[0];
+                popup_28b4a46741030239e3018682b607850a.setContent(html_80e0a291b4cd086eb1f51ca8ad6ba395);
+            
+        
+
+        marker_ed0a134073b73793640bb24f02bc1fbd.bindPopup(popup_28b4a46741030239e3018682b607850a)
+        ;
+
+        
+    
+    
+            marker_ed0a134073b73793640bb24f02bc1fbd.bindTooltip(
+                `<div>
+                     El Olmo Azul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_912d853a7b74d653599409132a1c8fab = L.marker(
+                [19.4246393, -99.1608029],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_e9dbe736bb11b41c1f5e8bb1f69f3e3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_912d853a7b74d653599409132a1c8fab.setIcon(icon_e9dbe736bb11b41c1f5e8bb1f69f3e3e);
+        
+    
+        var popup_8dcf0f51beb512d8754f197a7f0a3a9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1467b30de79383cf965d83583862d4c5 = $(`<div id="html_1467b30de79383cf965d83583862d4c5" style="width: 100.0%; height: 100.0%;"><b>Alba Cocina Local</b><br>Calificación: 5.0<br>Excelente totalmente mo pena</div>`)[0];
+                popup_8dcf0f51beb512d8754f197a7f0a3a9c.setContent(html_1467b30de79383cf965d83583862d4c5);
+            
+        
+
+        marker_912d853a7b74d653599409132a1c8fab.bindPopup(popup_8dcf0f51beb512d8754f197a7f0a3a9c)
+        ;
+
+        
+    
+    
+            marker_912d853a7b74d653599409132a1c8fab.bindTooltip(
+                `<div>
+                     Alba Cocina Local
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3489c28d3145209144607cc20bfeabd0 = L.marker(
+                [19.4776829, -99.1994341],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2d6d9f690a84c9170e75c5ae3b6c7f2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3489c28d3145209144607cc20bfeabd0.setIcon(icon_2d6d9f690a84c9170e75c5ae3b6c7f2a);
+        
+    
+        var popup_ac9f398ffa71df7d24796492a0631436 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22d40e50a321a790d4854560ea8e1abf = $(`<div id="html_22d40e50a321a790d4854560ea8e1abf" style="width: 100.0%; height: 100.0%;"><b>Birria Alex Chacón</b><br>Calificación: 4.0<br>lux super delicioso</div>`)[0];
+                popup_ac9f398ffa71df7d24796492a0631436.setContent(html_22d40e50a321a790d4854560ea8e1abf);
+            
+        
+
+        marker_3489c28d3145209144607cc20bfeabd0.bindPopup(popup_ac9f398ffa71df7d24796492a0631436)
+        ;
+
+        
+    
+    
+            marker_3489c28d3145209144607cc20bfeabd0.bindTooltip(
+                `<div>
+                     Birria Alex Chacón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f6ecee365d0dfb3eae87d582ceef04a = L.marker(
+                [19.333445, -99.199507],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_36a8518f11f7a21dfc50272e1007ab1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f6ecee365d0dfb3eae87d582ceef04a.setIcon(icon_36a8518f11f7a21dfc50272e1007ab1f);
+        
+    
+        var popup_c9f9a3312bc117d2420e9debf7dae72b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f53484bb372b741836be6f306e6989a = $(`<div id="html_0f53484bb372b741836be6f306e6989a" style="width: 100.0%; height: 100.0%;"><b>LOS AMABLES</b><br>Calificación: 4.0<br>servicio</div>`)[0];
+                popup_c9f9a3312bc117d2420e9debf7dae72b.setContent(html_0f53484bb372b741836be6f306e6989a);
+            
+        
+
+        marker_4f6ecee365d0dfb3eae87d582ceef04a.bindPopup(popup_c9f9a3312bc117d2420e9debf7dae72b)
+        ;
+
+        
+    
+    
+            marker_4f6ecee365d0dfb3eae87d582ceef04a.bindTooltip(
+                `<div>
+                     LOS AMABLES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb17201bd5867c0422215bd956f6fcd3 = L.marker(
+                [19.3754164, -99.1736362],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_176654b99a30134c1f80a6cc63193f5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb17201bd5867c0422215bd956f6fcd3.setIcon(icon_176654b99a30134c1f80a6cc63193f5e);
+        
+    
+        var popup_a86561702cfce3a039263572bb883970 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bb85db15c6737b2f38d5d4c0aaadb48 = $(`<div id="html_0bb85db15c6737b2f38d5d4c0aaadb48" style="width: 100.0%; height: 100.0%;"><b>Fonda 99.99</b><br>Calificación: 5.0<br>excelente comida yucateco seguir recomendación mesero equivocar</div>`)[0];
+                popup_a86561702cfce3a039263572bb883970.setContent(html_0bb85db15c6737b2f38d5d4c0aaadb48);
+            
+        
+
+        marker_bb17201bd5867c0422215bd956f6fcd3.bindPopup(popup_a86561702cfce3a039263572bb883970)
+        ;
+
+        
+    
+    
+            marker_bb17201bd5867c0422215bd956f6fcd3.bindTooltip(
+                `<div>
+                     Fonda 99.99
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7adcd984c23e6d65a0fe84c0aaa9f31d = L.marker(
+                [19.351172, -99.163713],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_cb43bb95c67257764b7ff91d663a6c48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7adcd984c23e6d65a0fe84c0aaa9f31d.setIcon(icon_cb43bb95c67257764b7ff91d663a6c48);
+        
+    
+        var popup_ee50e460d69f07a5e5be3e9374642422 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76854922ab13c866047fdaa88c8212e4 = $(`<div id="html_76854922ab13c866047fdaa88c8212e4" style="width: 100.0%; height: 100.0%;"><b>Amatista Tostadas</b><br>Calificación: 5.0<br>Delicioso</div>`)[0];
+                popup_ee50e460d69f07a5e5be3e9374642422.setContent(html_76854922ab13c866047fdaa88c8212e4);
+            
+        
+
+        marker_7adcd984c23e6d65a0fe84c0aaa9f31d.bindPopup(popup_ee50e460d69f07a5e5be3e9374642422)
+        ;
+
+        
+    
+    
+            marker_7adcd984c23e6d65a0fe84c0aaa9f31d.bindTooltip(
+                `<div>
+                     Amatista Tostadas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f8f13de1c8ed97c79c0a9b5f1481128 = L.marker(
+                [19.3389354, -99.0470531],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_0c78006da042fd83f19f7fd70b5692ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f8f13de1c8ed97c79c0a9b5f1481128.setIcon(icon_0c78006da042fd83f19f7fd70b5692ad);
+        
+    
+        var popup_354dbce38b3fea043d648cfa64871892 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_240a9d8d7499341c9d04358bc68b83cb = $(`<div id="html_240a9d8d7499341c9d04358bc68b83cb" style="width: 100.0%; height: 100.0%;"><b>La tía Juanita</b><br>Calificación: 5.0<br>Amable clientelar informar mayo restaurante tía Juanita servicio servicio domicilio</div>`)[0];
+                popup_354dbce38b3fea043d648cfa64871892.setContent(html_240a9d8d7499341c9d04358bc68b83cb);
+            
+        
+
+        marker_5f8f13de1c8ed97c79c0a9b5f1481128.bindPopup(popup_354dbce38b3fea043d648cfa64871892)
+        ;
+
+        
+    
+    
+            marker_5f8f13de1c8ed97c79c0a9b5f1481128.bindTooltip(
+                `<div>
+                     La tía Juanita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebf35e2a915412302e43744376ebbf62 = L.marker(
+                [19.3619917, -99.180732],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_8b4d1cf33dae9cd6241b3d8bdc88d184 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebf35e2a915412302e43744376ebbf62.setIcon(icon_8b4d1cf33dae9cd6241b3d8bdc88d184);
+        
+    
+        var popup_f1e798aac860e50598a1b2bdfe41fdf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f0bcb631854281f6983d8fd7720d038 = $(`<div id="html_6f0bcb631854281f6983d8fd7720d038" style="width: 100.0%; height: 100.0%;"><b>La Jefa</b><br>Calificación: 5.0<br>Encantado atención comida detalle perfectamente cuidado lugar íntimo encantador</div>`)[0];
+                popup_f1e798aac860e50598a1b2bdfe41fdf0.setContent(html_6f0bcb631854281f6983d8fd7720d038);
+            
+        
+
+        marker_ebf35e2a915412302e43744376ebbf62.bindPopup(popup_f1e798aac860e50598a1b2bdfe41fdf0)
+        ;
+
+        
+    
+    
+            marker_ebf35e2a915412302e43744376ebbf62.bindTooltip(
+                `<div>
+                     La Jefa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a8f1a20a784d2e26725ad675c6bc1ea = L.marker(
+                [19.4187766, -99.1594541],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_abb01c7cee388a46c1fbfb365e44c23f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a8f1a20a784d2e26725ad675c6bc1ea.setIcon(icon_abb01c7cee388a46c1fbfb365e44c23f);
+        
+    
+        var popup_c8bdbcac3e355863e2e683a0ffab50a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0936e9f4ffc554767169601768c59fe3 = $(`<div id="html_0936e9f4ffc554767169601768c59fe3" style="width: 100.0%; height: 100.0%;"><b>99</b><br>Calificación: 5.0<br>extraordinario experiencia ambiente espacio atención cocina exquisito rápido</div>`)[0];
+                popup_c8bdbcac3e355863e2e683a0ffab50a4.setContent(html_0936e9f4ffc554767169601768c59fe3);
+            
+        
+
+        marker_3a8f1a20a784d2e26725ad675c6bc1ea.bindPopup(popup_c8bdbcac3e355863e2e683a0ffab50a4)
+        ;
+
+        
+    
+    
+            marker_3a8f1a20a784d2e26725ad675c6bc1ea.bindTooltip(
+                `<div>
+                     99
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a52d5a02131047cd38a81d039b6bbd04 = L.marker(
+                [19.4333333, -99.1427778],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a769f4f0b4a429abe2c5cfd67791e07c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a52d5a02131047cd38a81d039b6bbd04.setIcon(icon_a769f4f0b4a429abe2c5cfd67791e07c);
+        
+    
+        var popup_ea5492202a08ffeee28dd61cc2dfee69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4580040ebae3d7a0be83ccb9edd288da = $(`<div id="html_4580040ebae3d7a0be83ccb9edd288da" style="width: 100.0%; height: 100.0%;"><b>Testal</b><br>Calificación: 5.0<br>atención rico sazón</div>`)[0];
+                popup_ea5492202a08ffeee28dd61cc2dfee69.setContent(html_4580040ebae3d7a0be83ccb9edd288da);
+            
+        
+
+        marker_a52d5a02131047cd38a81d039b6bbd04.bindPopup(popup_ea5492202a08ffeee28dd61cc2dfee69)
+        ;
+
+        
+    
+    
+            marker_a52d5a02131047cd38a81d039b6bbd04.bindTooltip(
+                `<div>
+                     Testal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0ba4a5ec1d43a6b7559a6ed04382c9f = L.marker(
+                [19.3852241, -99.146372],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_3cba3f12fe6500daae0cffccae501cb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0ba4a5ec1d43a6b7559a6ed04382c9f.setIcon(icon_3cba3f12fe6500daae0cffccae501cb6);
+        
+    
+        var popup_72947bc32879b344f1262321c1c4fdc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299328dc5354e04ab2a1cd32054ad5d9 = $(`<div id="html_299328dc5354e04ab2a1cd32054ad5d9" style="width: 100.0%; height: 100.0%;"><b>EL POZOLE DE LA VECINA</b><br>Calificación: 5.0<br>Service is good</div>`)[0];
+                popup_72947bc32879b344f1262321c1c4fdc2.setContent(html_299328dc5354e04ab2a1cd32054ad5d9);
+            
+        
+
+        marker_d0ba4a5ec1d43a6b7559a6ed04382c9f.bindPopup(popup_72947bc32879b344f1262321c1c4fdc2)
+        ;
+
+        
+    
+    
+            marker_d0ba4a5ec1d43a6b7559a6ed04382c9f.bindTooltip(
+                `<div>
+                     EL POZOLE DE LA VECINA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6bd0009c950ca460b509904cbcd2590 = L.marker(
+                [19.2958723, -99.0553165],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_e8daaeb6bd990f0f4efc28fbc2002f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6bd0009c950ca460b509904cbcd2590.setIcon(icon_e8daaeb6bd990f0f4efc28fbc2002f63);
+        
+    
+        var popup_5d82a6546f2b443bdd87215b5d0ca9d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6d4a80b2c49916b84f01afd3d90e655 = $(`<div id="html_c6d4a80b2c49916b84f01afd3d90e655" style="width: 100.0%; height: 100.0%;"><b>Taquería ''Los Taquitos''</b><br>Calificación: 5.0<br>agradable cliente atención cliente</div>`)[0];
+                popup_5d82a6546f2b443bdd87215b5d0ca9d0.setContent(html_c6d4a80b2c49916b84f01afd3d90e655);
+            
+        
+
+        marker_c6bd0009c950ca460b509904cbcd2590.bindPopup(popup_5d82a6546f2b443bdd87215b5d0ca9d0)
+        ;
+
+        
+    
+    
+            marker_c6bd0009c950ca460b509904cbcd2590.bindTooltip(
+                `<div>
+                     Taquería ''Los Taquitos''
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7eac5ac2abfb05d526b906ee319b6f7 = L.marker(
+                [19.4630167, -99.1740267],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a363d004c1b4e28f2f490449e0b35646 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a7eac5ac2abfb05d526b906ee319b6f7.setIcon(icon_a363d004c1b4e28f2f490449e0b35646);
+        
+    
+        var popup_1885b8f84a48a42dd6cf62a0cf5b1b60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7500d92914fa54b3e6a7fad34846b074 = $(`<div id="html_7500d92914fa54b3e6a7fad34846b074" style="width: 100.0%; height: 100.0%;"><b>Restaurante "Mi Morenita"</b><br>Calificación: 3.0<br>sazón caro tardadss servir</div>`)[0];
+                popup_1885b8f84a48a42dd6cf62a0cf5b1b60.setContent(html_7500d92914fa54b3e6a7fad34846b074);
+            
+        
+
+        marker_a7eac5ac2abfb05d526b906ee319b6f7.bindPopup(popup_1885b8f84a48a42dd6cf62a0cf5b1b60)
+        ;
+
+        
+    
+    
+            marker_a7eac5ac2abfb05d526b906ee319b6f7.bindTooltip(
+                `<div>
+                     Restaurante "Mi Morenita"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac495c61ad81f1ccbe7334a4ea9614f4 = L.marker(
+                [19.3791067, -99.2162316],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_63d49a7e7c90d6b198ba0491c57d9db9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac495c61ad81f1ccbe7334a4ea9614f4.setIcon(icon_63d49a7e7c90d6b198ba0491c57d9db9);
+        
+    
+        var popup_3d7d2656e34d7dfb158b6d06b9e13a5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7faebf1696a3d3de21d4fb1198eb68aa = $(`<div id="html_7faebf1696a3d3de21d4fb1198eb68aa" style="width: 100.0%; height: 100.0%;"><b>Comida Mexicana "Las Cazuelitas"</b><br>Calificación: 5.0<br>Golo</div>`)[0];
+                popup_3d7d2656e34d7dfb158b6d06b9e13a5b.setContent(html_7faebf1696a3d3de21d4fb1198eb68aa);
+            
+        
+
+        marker_ac495c61ad81f1ccbe7334a4ea9614f4.bindPopup(popup_3d7d2656e34d7dfb158b6d06b9e13a5b)
+        ;
+
+        
+    
+    
+            marker_ac495c61ad81f1ccbe7334a4ea9614f4.bindTooltip(
+                `<div>
+                     Comida Mexicana "Las Cazuelitas"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3d5bbee02acc298a4e9c07499626d3f = L.marker(
+                [19.3731754, -99.2155324],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_f05d805baa96e84dfd787ad670172262 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3d5bbee02acc298a4e9c07499626d3f.setIcon(icon_f05d805baa96e84dfd787ad670172262);
+        
+    
+        var popup_6ecd9db108479e872dce37341935f6f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b26608f21bfa760361dc73f8621eb1d0 = $(`<div id="html_b26608f21bfa760361dc73f8621eb1d0" style="width: 100.0%; height: 100.0%;"><b>La Casa del Abuelo (Desayunos)</b><br>Calificación: 5.0<br>lugar comer familia comida calidad excelente servicio tensión costo accesibl</div>`)[0];
+                popup_6ecd9db108479e872dce37341935f6f2.setContent(html_b26608f21bfa760361dc73f8621eb1d0);
+            
+        
+
+        marker_e3d5bbee02acc298a4e9c07499626d3f.bindPopup(popup_6ecd9db108479e872dce37341935f6f2)
+        ;
+
+        
+    
+    
+            marker_e3d5bbee02acc298a4e9c07499626d3f.bindTooltip(
+                `<div>
+                     La Casa del Abuelo (Desayunos)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49a5fe8fff11084a9edaaba4358667c9 = L.marker(
+                [19.1938032, -99.0224298],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_8babe9ab4736cb04f48c3b1da254446f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49a5fe8fff11084a9edaaba4358667c9.setIcon(icon_8babe9ab4736cb04f48c3b1da254446f);
+        
+    
+        var popup_2557231b0b7da7da38a3fe522a29862d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa3232669f56afd827cafc12e6a4bc86 = $(`<div id="html_fa3232669f56afd827cafc12e6a4bc86" style="width: 100.0%; height: 100.0%;"><b>Pozoleria "Linda"</b><br>Calificación: 5.0<br>excelente servicio sabor</div>`)[0];
+                popup_2557231b0b7da7da38a3fe522a29862d.setContent(html_fa3232669f56afd827cafc12e6a4bc86);
+            
+        
+
+        marker_49a5fe8fff11084a9edaaba4358667c9.bindPopup(popup_2557231b0b7da7da38a3fe522a29862d)
+        ;
+
+        
+    
+    
+            marker_49a5fe8fff11084a9edaaba4358667c9.bindTooltip(
+                `<div>
+                     Pozoleria "Linda"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dabce24573b17d44e4318c2484e5517 = L.marker(
+                [19.4094444, -99.1728167],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_dcb03904d7e50ba031d4cdc4a34047a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dabce24573b17d44e4318c2484e5517.setIcon(icon_dcb03904d7e50ba031d4cdc4a34047a4);
+        
+    
+        var popup_ed93a82d131513f83577684c9b256e1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e45bc0c1290c5c597e9dc4b05599e25 = $(`<div id="html_5e45bc0c1290c5c597e9dc4b05599e25" style="width: 100.0%; height: 100.0%;"><b>La Capital</b><br>Calificación: 5.0<br>mantener standard calidad</div>`)[0];
+                popup_ed93a82d131513f83577684c9b256e1a.setContent(html_5e45bc0c1290c5c597e9dc4b05599e25);
+            
+        
+
+        marker_6dabce24573b17d44e4318c2484e5517.bindPopup(popup_ed93a82d131513f83577684c9b256e1a)
+        ;
+
+        
+    
+    
+            marker_6dabce24573b17d44e4318c2484e5517.bindTooltip(
+                `<div>
+                     La Capital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddd7a1682073b792c394f53dbb335f00 = L.marker(
+                [19.4846808, -99.1190106],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_d2983e432bd87a837cfd250782df8b84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ddd7a1682073b792c394f53dbb335f00.setIcon(icon_d2983e432bd87a837cfd250782df8b84);
+        
+    
+        var popup_c815f3299f6e2cb7af2437dcebdccbba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae2f84f433d0cbf6d4b0a29201932952 = $(`<div id="html_ae2f84f433d0cbf6d4b0a29201932952" style="width: 100.0%; height: 100.0%;"><b>Lonchería Don Pepe</b><br>Calificación: 5.0<br>torta pate rico</div>`)[0];
+                popup_c815f3299f6e2cb7af2437dcebdccbba.setContent(html_ae2f84f433d0cbf6d4b0a29201932952);
+            
+        
+
+        marker_ddd7a1682073b792c394f53dbb335f00.bindPopup(popup_c815f3299f6e2cb7af2437dcebdccbba)
+        ;
+
+        
+    
+    
+            marker_ddd7a1682073b792c394f53dbb335f00.bindTooltip(
+                `<div>
+                     Lonchería Don Pepe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fd3d4bb85d811a6dc3dce7a015ebb70 = L.marker(
+                [19.4347781, -99.1463227],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_31dd1a303dfe2d7e40111ebaff94328c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7fd3d4bb85d811a6dc3dce7a015ebb70.setIcon(icon_31dd1a303dfe2d7e40111ebaff94328c);
+        
+    
+        var popup_61735c75d30a0808a021f8ca31d10822 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_321833a18305033491fe1a4dc6a6c51b = $(`<div id="html_321833a18305033491fe1a4dc6a6c51b" style="width: 100.0%; height: 100.0%;"><b>El Cardenal Alameda</b><br>Calificación: 5.0<br>mejor lugar comer antencion comensal excelente comar delicioso</div>`)[0];
+                popup_61735c75d30a0808a021f8ca31d10822.setContent(html_321833a18305033491fe1a4dc6a6c51b);
+            
+        
+
+        marker_7fd3d4bb85d811a6dc3dce7a015ebb70.bindPopup(popup_61735c75d30a0808a021f8ca31d10822)
+        ;
+
+        
+    
+    
+            marker_7fd3d4bb85d811a6dc3dce7a015ebb70.bindTooltip(
+                `<div>
+                     El Cardenal Alameda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2995d085cd5d1c1ad7d75ebbaffb3011 = L.marker(
+                [19.4951529, -99.1852909],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_bcd99d9dde714f8c4bcdf68ca6c0fa1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2995d085cd5d1c1ad7d75ebbaffb3011.setIcon(icon_bcd99d9dde714f8c4bcdf68ca6c0fa1d);
+        
+    
+        var popup_ff3f206a6fba9191b9eab0aea5393215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_858ebcb5c0714fe85c34dcfc49b14aa4 = $(`<div id="html_858ebcb5c0714fe85c34dcfc49b14aa4" style="width: 100.0%; height: 100.0%;"><b>Alberto's</b><br>Calificación: 3.0<br>enchilada súper deliciosa</div>`)[0];
+                popup_ff3f206a6fba9191b9eab0aea5393215.setContent(html_858ebcb5c0714fe85c34dcfc49b14aa4);
+            
+        
+
+        marker_2995d085cd5d1c1ad7d75ebbaffb3011.bindPopup(popup_ff3f206a6fba9191b9eab0aea5393215)
+        ;
+
+        
+    
+    
+            marker_2995d085cd5d1c1ad7d75ebbaffb3011.bindTooltip(
+                `<div>
+                     Alberto's
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d1d93ff470a2966aeec99b97ee2d23a = L.marker(
+                [19.3916283, -99.0843593],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_67220968858e562cd16729e52423b5b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d1d93ff470a2966aeec99b97ee2d23a.setIcon(icon_67220968858e562cd16729e52423b5b4);
+        
+    
+        var popup_9dd11a2d0e04031b658fdb2cfd31dadf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00f9e39808e40eb9532cf9abf42f1fc1 = $(`<div id="html_00f9e39808e40eb9532cf9abf42f1fc1" style="width: 100.0%; height: 100.0%;"><b>ANTOJITOS MEXICANOS ADELA</b><br>Calificación: 4.0<br>comida rico medida higiene contingencia amables trato precio bajo lugar soler acudir tlacoyo salir pata parecer cucaracha descontar costo tlacoyo dudo volver</div>`)[0];
+                popup_9dd11a2d0e04031b658fdb2cfd31dadf.setContent(html_00f9e39808e40eb9532cf9abf42f1fc1);
+            
+        
+
+        marker_0d1d93ff470a2966aeec99b97ee2d23a.bindPopup(popup_9dd11a2d0e04031b658fdb2cfd31dadf)
+        ;
+
+        
+    
+    
+            marker_0d1d93ff470a2966aeec99b97ee2d23a.bindTooltip(
+                `<div>
+                     ANTOJITOS MEXICANOS ADELA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d1f4131c52beb478b98aff538b3867d = L.marker(
+                [19.3604316, -99.2915649],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_9d126853003a3def2d64a444614f841e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d1f4131c52beb478b98aff538b3867d.setIcon(icon_9d126853003a3def2d64a444614f841e);
+        
+    
+        var popup_353297ae741d857a0d2428f038f4617a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f63a3a8651ae7d4d9996ed41af1fdaa = $(`<div id="html_2f63a3a8651ae7d4d9996ed41af1fdaa" style="width: 100.0%; height: 100.0%;"><b>El Yute</b><br>Calificación: 5.0<br>delicioso I pre ordenar pasar comida esperar tiempo</div>`)[0];
+                popup_353297ae741d857a0d2428f038f4617a.setContent(html_2f63a3a8651ae7d4d9996ed41af1fdaa);
+            
+        
+
+        marker_4d1f4131c52beb478b98aff538b3867d.bindPopup(popup_353297ae741d857a0d2428f038f4617a)
+        ;
+
+        
+    
+    
+            marker_4d1f4131c52beb478b98aff538b3867d.bindTooltip(
+                `<div>
+                     El Yute
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2246aa4be99522b95cdb3fcda2ed6f3e = L.marker(
+                [19.3498395, -99.1980609],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_1c62ec05e79ef1c285158f092bcc0276 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2246aa4be99522b95cdb3fcda2ed6f3e.setIcon(icon_1c62ec05e79ef1c285158f092bcc0276);
+        
+    
+        var popup_fb59099c585cf178fe91adf03b98c616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8227a34399d454959303b5ecf605eb4 = $(`<div id="html_d8227a34399d454959303b5ecf605eb4" style="width: 100.0%; height: 100.0%;"><b>San Ángel Inn</b><br>Calificación: 5.0<br>delicioso salir desayunar mesa separado Servicio impecable</div>`)[0];
+                popup_fb59099c585cf178fe91adf03b98c616.setContent(html_d8227a34399d454959303b5ecf605eb4);
+            
+        
+
+        marker_2246aa4be99522b95cdb3fcda2ed6f3e.bindPopup(popup_fb59099c585cf178fe91adf03b98c616)
+        ;
+
+        
+    
+    
+            marker_2246aa4be99522b95cdb3fcda2ed6f3e.bindTooltip(
+                `<div>
+                     San Ángel Inn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ae7efb80f3d6a7c10f1816ca8f91591 = L.marker(
+                [19.4325479, -99.2036427],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_4a67c7e019c05bc260c61703768318cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ae7efb80f3d6a7c10f1816ca8f91591.setIcon(icon_4a67c7e019c05bc260c61703768318cb);
+        
+    
+        var popup_0e7bc999567d925f5430e133547c3798 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bddc9e51dadbc397adea0c9b13aefc2 = $(`<div id="html_3bddc9e51dadbc397adea0c9b13aefc2" style="width: 100.0%; height: 100.0%;"><b>Guzina Oaxaca</b><br>Calificación: 2.0<br>decoración sabor x precio alto empezar experiencia salsa preparado mesa totopo original entrada presentado sabor sobresaliente platillo principal parecer caro obtenido sabor porción ejemplo pulpo realidad tentáculo Media coliflor sabor haber transportar Oaxaca quejar regresar personal amable</div>`)[0];
+                popup_0e7bc999567d925f5430e133547c3798.setContent(html_3bddc9e51dadbc397adea0c9b13aefc2);
+            
+        
+
+        marker_9ae7efb80f3d6a7c10f1816ca8f91591.bindPopup(popup_0e7bc999567d925f5430e133547c3798)
+        ;
+
+        
+    
+    
+            marker_9ae7efb80f3d6a7c10f1816ca8f91591.bindTooltip(
+                `<div>
+                     Guzina Oaxaca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cd239e52aa312ea0b6ff58fc9d73ee7 = L.marker(
+                [19.370129, -99.143498],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a04bb6e3058b4252b222f7f27de6fc2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2cd239e52aa312ea0b6ff58fc9d73ee7.setIcon(icon_a04bb6e3058b4252b222f7f27de6fc2c);
+        
+    
+        var popup_a1c842ccac72283fc5685c9ebda02583 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd09e7dc7982352a03dc3004df60c47f = $(`<div id="html_cd09e7dc7982352a03dc3004df60c47f" style="width: 100.0%; height: 100.0%;"><b>Los Pumpos</b><br>Calificación: 5.0<br>Cochito horno</div>`)[0];
+                popup_a1c842ccac72283fc5685c9ebda02583.setContent(html_cd09e7dc7982352a03dc3004df60c47f);
+            
+        
+
+        marker_2cd239e52aa312ea0b6ff58fc9d73ee7.bindPopup(popup_a1c842ccac72283fc5685c9ebda02583)
+        ;
+
+        
+    
+    
+            marker_2cd239e52aa312ea0b6ff58fc9d73ee7.bindTooltip(
+                `<div>
+                     Los Pumpos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8446912a498e6f7ebd6f9ff361cb871c = L.marker(
+                [19.4782869, -99.1243764],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_9b654c509110ef431219ccd66a483ab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8446912a498e6f7ebd6f9ff361cb871c.setIcon(icon_9b654c509110ef431219ccd66a483ab3);
+        
+    
+        var popup_5737c8d89cb82a7c38fb45abd6a63847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceaec49613d921bbb0190c86b0782e03 = $(`<div id="html_ceaec49613d921bbb0190c86b0782e03" style="width: 100.0%; height: 100.0%;"><b>El Itakate</b><br>Calificación: 5.0<br>gustar desayuno café sentir seguro tomar debido medida salubridad evitar contagio covid precio</div>`)[0];
+                popup_5737c8d89cb82a7c38fb45abd6a63847.setContent(html_ceaec49613d921bbb0190c86b0782e03);
+            
+        
+
+        marker_8446912a498e6f7ebd6f9ff361cb871c.bindPopup(popup_5737c8d89cb82a7c38fb45abd6a63847)
+        ;
+
+        
+    
+    
+            marker_8446912a498e6f7ebd6f9ff361cb871c.bindTooltip(
+                `<div>
+                     El Itakate
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_950db95b6d0b0d09d427d533375c057b = L.marker(
+                [19.4753815, -99.1529231],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_031786bc22dc058b5a4dc4496b7d8468 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_950db95b6d0b0d09d427d533375c057b.setIcon(icon_031786bc22dc058b5a4dc4496b7d8468);
+        
+    
+        var popup_27f1d21f410f6fd254ee33819a1ab188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4491e4ff12c44145d28db0078c9e5bf = $(`<div id="html_a4491e4ff12c44145d28db0078c9e5bf" style="width: 100.0%; height: 100.0%;"><b>Fonda Mexicana EL SAUCE</b><br>Calificación: 5.0<br>servicio rápido</div>`)[0];
+                popup_27f1d21f410f6fd254ee33819a1ab188.setContent(html_a4491e4ff12c44145d28db0078c9e5bf);
+            
+        
+
+        marker_950db95b6d0b0d09d427d533375c057b.bindPopup(popup_27f1d21f410f6fd254ee33819a1ab188)
+        ;
+
+        
+    
+    
+            marker_950db95b6d0b0d09d427d533375c057b.bindTooltip(
+                `<div>
+                     Fonda Mexicana EL SAUCE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3d6f9d718ca4538733cf93d7d1a8849 = L.marker(
+                [19.4328683, -99.1947798],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_159b74e23fce20eee96109b8a68cc746 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3d6f9d718ca4538733cf93d7d1a8849.setIcon(icon_159b74e23fce20eee96109b8a68cc746);
+        
+    
+        var popup_3a68294d5db9e7aeaaee87099e6bacbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec468d64ffe2d30749b99b85e0ac8fcb = $(`<div id="html_ec468d64ffe2d30749b99b85e0ac8fcb" style="width: 100.0%; height: 100.0%;"><b>Pujol</b><br>Calificación: 2.0<br>Most overrated Restaurant The ratio betweir cost of food and prizar is not justifable</div>`)[0];
+                popup_3a68294d5db9e7aeaaee87099e6bacbb.setContent(html_ec468d64ffe2d30749b99b85e0ac8fcb);
+            
+        
+
+        marker_c3d6f9d718ca4538733cf93d7d1a8849.bindPopup(popup_3a68294d5db9e7aeaaee87099e6bacbb)
+        ;
+
+        
+    
+    
+            marker_c3d6f9d718ca4538733cf93d7d1a8849.bindTooltip(
+                `<div>
+                     Pujol
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77b12e858573170544df4824568e6a88 = L.marker(
+                [19.3922893, -99.1727111],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_1ebe19e3e4de8743b0dc0d282f4bdbd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_77b12e858573170544df4824568e6a88.setIcon(icon_1ebe19e3e4de8743b0dc0d282f4bdbd3);
+        
+    
+        var popup_573d77cf7d4e3fd39aff74c4013c89fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c71823acf4d5b86d528e3144652ba073 = $(`<div id="html_c71823acf4d5b86d528e3144652ba073" style="width: 100.0%; height: 100.0%;"><b>Palominos</b><br>Calificación: 4.0<br>atención comida excelente</div>`)[0];
+                popup_573d77cf7d4e3fd39aff74c4013c89fc.setContent(html_c71823acf4d5b86d528e3144652ba073);
+            
+        
+
+        marker_77b12e858573170544df4824568e6a88.bindPopup(popup_573d77cf7d4e3fd39aff74c4013c89fc)
+        ;
+
+        
+    
+    
+            marker_77b12e858573170544df4824568e6a88.bindTooltip(
+                `<div>
+                     Palominos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2824e853b30b6f6585ebcace4c470704 = L.marker(
+                [19.457109, -99.204422],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_6bddb4621faded446cf0923a9ec44802 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2824e853b30b6f6585ebcace4c470704.setIcon(icon_6bddb4621faded446cf0923a9ec44802);
+        
+    
+        var popup_3152be46c5168cbf7670a284f242a8dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edba007f3be90a379e3ac4833f97bae1 = $(`<div id="html_edba007f3be90a379e3ac4833f97bae1" style="width: 100.0%; height: 100.0%;"><b>Restaurante Tierra Linda</b><br>Calificación: 5.0<br>excelente servicio</div>`)[0];
+                popup_3152be46c5168cbf7670a284f242a8dd.setContent(html_edba007f3be90a379e3ac4833f97bae1);
+            
+        
+
+        marker_2824e853b30b6f6585ebcace4c470704.bindPopup(popup_3152be46c5168cbf7670a284f242a8dd)
+        ;
+
+        
+    
+    
+            marker_2824e853b30b6f6585ebcace4c470704.bindTooltip(
+                `<div>
+                     Restaurante Tierra Linda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d01658b9f3511bde81fef7072f602cba = L.marker(
+                [19.1933109, -99.0236132],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_94b62be41c3f4bb8850836b588b8a50c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d01658b9f3511bde81fef7072f602cba.setIcon(icon_94b62be41c3f4bb8850836b588b8a50c);
+        
+    
+        var popup_93120c61f0eac2351ea290a849efcc87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bce3366c876577529689c91e9a105b8 = $(`<div id="html_8bce3366c876577529689c91e9a105b8" style="width: 100.0%; height: 100.0%;"><b>EL ASADOR TAQUERIA</b><br>Calificación: 5.0<br>rico comida</div>`)[0];
+                popup_93120c61f0eac2351ea290a849efcc87.setContent(html_8bce3366c876577529689c91e9a105b8);
+            
+        
+
+        marker_d01658b9f3511bde81fef7072f602cba.bindPopup(popup_93120c61f0eac2351ea290a849efcc87)
+        ;
+
+        
+    
+    
+            marker_d01658b9f3511bde81fef7072f602cba.bindTooltip(
+                `<div>
+                     EL ASADOR TAQUERIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_426ca7e82c168d33384dab73ba6b1d8d = L.marker(
+                [19.4055661, -99.1704146],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_e41da4fe248ffde2386133d0e9f0f10a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_426ca7e82c168d33384dab73ba6b1d8d.setIcon(icon_e41da4fe248ffde2386133d0e9f0f10a);
+        
+    
+        var popup_5cd775afd28d2304aeec74aa0882858f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1e4b667a46e06e2c95e2a79b03115ad = $(`<div id="html_c1e4b667a46e06e2c95e2a79b03115ad" style="width: 100.0%; height: 100.0%;"><b>Rincón de mi Tierra</b><br>Calificación: 5.0<br>Califico estrella Google maps Sabor dios atención tiempo super bieno comida orgasmo paladar sano distancia colocación mesa protocolo único detalle mejorar opinión foto platillo menú QR</div>`)[0];
+                popup_5cd775afd28d2304aeec74aa0882858f.setContent(html_c1e4b667a46e06e2c95e2a79b03115ad);
+            
+        
+
+        marker_426ca7e82c168d33384dab73ba6b1d8d.bindPopup(popup_5cd775afd28d2304aeec74aa0882858f)
+        ;
+
+        
+    
+    
+            marker_426ca7e82c168d33384dab73ba6b1d8d.bindTooltip(
+                `<div>
+                     Rincón de mi Tierra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43a0cac8efcabc25097c1fc7dfc6e5c9 = L.marker(
+                [19.4314616, -99.1978654],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_768da2da0ea8eb665c8cae5ce4365693 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43a0cac8efcabc25097c1fc7dfc6e5c9.setIcon(icon_768da2da0ea8eb665c8cae5ce4365693);
+        
+    
+        var popup_6483182a8edb3b1044a8129c8a7dadb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45ad37aef366e1553cb375d4fa00077e = $(`<div id="html_45ad37aef366e1553cb375d4fa00077e" style="width: 100.0%; height: 100.0%;"><b>Dulce Patria</b><br>Calificación: 5.0<br>encantar pida espectacular</div>`)[0];
+                popup_6483182a8edb3b1044a8129c8a7dadb5.setContent(html_45ad37aef366e1553cb375d4fa00077e);
+            
+        
+
+        marker_43a0cac8efcabc25097c1fc7dfc6e5c9.bindPopup(popup_6483182a8edb3b1044a8129c8a7dadb5)
+        ;
+
+        
+    
+    
+            marker_43a0cac8efcabc25097c1fc7dfc6e5c9.bindTooltip(
+                `<div>
+                     Dulce Patria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bf8871f358fa3481093b2e3d7b8dd0a = L.marker(
+                [19.4298268, -99.1449651],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_20f8e7c752322c3e132d982df600efdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bf8871f358fa3481093b2e3d7b8dd0a.setIcon(icon_20f8e7c752322c3e132d982df600efdf);
+        
+    
+        var popup_b39ce8bae6e5610d4cd6713fb51aa7a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_950a4624a5c234d1d5e7881bdd3f7b77 = $(`<div id="html_950a4624a5c234d1d5e7881bdd3f7b77" style="width: 100.0%; height: 100.0%;"><b>Mercado de San Juan</b><br>Calificación: 5.0<br>excelente</div>`)[0];
+                popup_b39ce8bae6e5610d4cd6713fb51aa7a5.setContent(html_950a4624a5c234d1d5e7881bdd3f7b77);
+            
+        
+
+        marker_3bf8871f358fa3481093b2e3d7b8dd0a.bindPopup(popup_b39ce8bae6e5610d4cd6713fb51aa7a5)
+        ;
+
+        
+    
+    
+            marker_3bf8871f358fa3481093b2e3d7b8dd0a.bindTooltip(
+                `<div>
+                     Mercado de San Juan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93d80d07a4393e1d492512d60c86ec86 = L.marker(
+                [19.427888, -99.1436464],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2e8b358a86ba55ca8ab03c188a0b6f59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93d80d07a4393e1d492512d60c86ec86.setIcon(icon_2e8b358a86ba55ca8ab03c188a0b6f59);
+        
+    
+        var popup_7009a7c93288c4604ced18fcf925d886 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5381ac87d25c6a355b12660fc4f23ce = $(`<div id="html_b5381ac87d25c6a355b12660fc4f23ce" style="width: 100.0%; height: 100.0%;"><b>Rica Pancita Anita</b><br>Calificación: 5.0<br>pancita eh probado</div>`)[0];
+                popup_7009a7c93288c4604ced18fcf925d886.setContent(html_b5381ac87d25c6a355b12660fc4f23ce);
+            
+        
+
+        marker_93d80d07a4393e1d492512d60c86ec86.bindPopup(popup_7009a7c93288c4604ced18fcf925d886)
+        ;
+
+        
+    
+    
+            marker_93d80d07a4393e1d492512d60c86ec86.bindTooltip(
+                `<div>
+                     Rica Pancita Anita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b6f82b530cb14207d81f436a63108ff = L.marker(
+                [19.427534, -99.1091875],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a38fb9fdaf12433803434e2e506766e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b6f82b530cb14207d81f436a63108ff.setIcon(icon_a38fb9fdaf12433803434e2e506766e3);
+        
+    
+        var popup_05e918153d14f12d1d0442f441d85caf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4931c6dc0197ab479d7662acbcff32f = $(`<div id="html_e4931c6dc0197ab479d7662acbcff32f" style="width: 100.0%; height: 100.0%;"><b>Birria 3 Estrellas</b><br>Calificación: 5.0<br>perfecto</div>`)[0];
+                popup_05e918153d14f12d1d0442f441d85caf.setContent(html_e4931c6dc0197ab479d7662acbcff32f);
+            
+        
+
+        marker_2b6f82b530cb14207d81f436a63108ff.bindPopup(popup_05e918153d14f12d1d0442f441d85caf)
+        ;
+
+        
+    
+    
+            marker_2b6f82b530cb14207d81f436a63108ff.bindTooltip(
+                `<div>
+                     Birria 3 Estrellas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_298bd013b053753188012fc5cc5c74f9 = L.marker(
+                [19.4629892, -99.1669345],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_ef391845dc90dcf01dbb01aeb4be4a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_298bd013b053753188012fc5cc5c74f9.setIcon(icon_ef391845dc90dcf01dbb01aeb4be4a89);
+        
+    
+        var popup_742d792081ce9c793faec93852e8f646 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1792f896b4a6018d50c082803c5210ac = $(`<div id="html_1792f896b4a6018d50c082803c5210ac" style="width: 100.0%; height: 100.0%;"><b>Las Delicias De Jalisco</b><br>Calificación: 5.0<br>rico</div>`)[0];
+                popup_742d792081ce9c793faec93852e8f646.setContent(html_1792f896b4a6018d50c082803c5210ac);
+            
+        
+
+        marker_298bd013b053753188012fc5cc5c74f9.bindPopup(popup_742d792081ce9c793faec93852e8f646)
+        ;
+
+        
+    
+    
+            marker_298bd013b053753188012fc5cc5c74f9.bindTooltip(
+                `<div>
+                     Las Delicias De Jalisco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de0ff9ca2e133a0eab13929394f4b582 = L.marker(
+                [19.4346075, -99.2084026],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_0f7dfbc1ac0d33f39e4d5481de4df20a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_de0ff9ca2e133a0eab13929394f4b582.setIcon(icon_0f7dfbc1ac0d33f39e4d5481de4df20a);
+        
+    
+        var popup_9b1df9c2835e5a41d419faa9f8f3e436 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4646fa554fd50f105465a769ce8ebde = $(`<div id="html_e4646fa554fd50f105465a769ce8ebde" style="width: 100.0%; height: 100.0%;"><b>La Hacienda de los Morales</b><br>Calificación: 5.0<br>Comi salmon relleno verdura imuy rico crema elote</div>`)[0];
+                popup_9b1df9c2835e5a41d419faa9f8f3e436.setContent(html_e4646fa554fd50f105465a769ce8ebde);
+            
+        
+
+        marker_de0ff9ca2e133a0eab13929394f4b582.bindPopup(popup_9b1df9c2835e5a41d419faa9f8f3e436)
+        ;
+
+        
+    
+    
+            marker_de0ff9ca2e133a0eab13929394f4b582.bindTooltip(
+                `<div>
+                     La Hacienda de los Morales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a28d874190e39091c94ac9833b4b051 = L.marker(
+                [19.4329733, -99.1489232],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_073377cbe1354113837d9f74f26e3f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a28d874190e39091c94ac9833b4b051.setIcon(icon_073377cbe1354113837d9f74f26e3f63);
+        
+    
+        var popup_eeac8f44c752758b7a82eb0d89479778 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51590fe60fa6c642394bb6f3fac10702 = $(`<div id="html_51590fe60fa6c642394bb6f3fac10702" style="width: 100.0%; height: 100.0%;"><b>Quereres</b><br>Calificación: 5.0<br>encantar lugar conocer casualidad buscar restaurante zona calificación real menú reducir plato presentado delicioso atención faltar publicidad zona perjudicar lugar ojalá tener sucursal volver duda</div>`)[0];
+                popup_eeac8f44c752758b7a82eb0d89479778.setContent(html_51590fe60fa6c642394bb6f3fac10702);
+            
+        
+
+        marker_2a28d874190e39091c94ac9833b4b051.bindPopup(popup_eeac8f44c752758b7a82eb0d89479778)
+        ;
+
+        
+    
+    
+            marker_2a28d874190e39091c94ac9833b4b051.bindTooltip(
+                `<div>
+                     Quereres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb36fc3e8118557940591087fa54600a = L.marker(
+                [19.4272222, -99.1936111],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_4f743e4cdfb895c233601bf21f564be4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb36fc3e8118557940591087fa54600a.setIcon(icon_4f743e4cdfb895c233601bf21f564be4);
+        
+    
+        var popup_2061fade4dcd229d11e540d9d70335bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d078be741c86d726d77b79ae5d2b814 = $(`<div id="html_3d078be741c86d726d77b79ae5d2b814" style="width: 100.0%; height: 100.0%;"><b>Chapulín</b><br>Calificación: 5.0<br>comida deliciós postre fresa favorito</div>`)[0];
+                popup_2061fade4dcd229d11e540d9d70335bd.setContent(html_3d078be741c86d726d77b79ae5d2b814);
+            
+        
+
+        marker_cb36fc3e8118557940591087fa54600a.bindPopup(popup_2061fade4dcd229d11e540d9d70335bd)
+        ;
+
+        
+    
+    
+            marker_cb36fc3e8118557940591087fa54600a.bindTooltip(
+                `<div>
+                     Chapulín
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a87f749288164125d945dcdec30dbf32 = L.marker(
+                [19.395868, -99.160772],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2f1456a2c6ad8c64d3e2e1b2ca9378d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a87f749288164125d945dcdec30dbf32.setIcon(icon_2f1456a2c6ad8c64d3e2e1b2ca9378d4);
+        
+    
+        var popup_e28d6cb0b47a86f0f6260e8e89b01a0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69186cb5dca5720cbc696bdbcd878b00 = $(`<div id="html_69186cb5dca5720cbc696bdbcd878b00" style="width: 100.0%; height: 100.0%;"><b>La Pizca Comida Mexicana & Gourmet</b><br>Calificación: 3.0<br>Pase interior persona comer máximo tomar bebida acercar ofrecerme persona solicitar</div>`)[0];
+                popup_e28d6cb0b47a86f0f6260e8e89b01a0f.setContent(html_69186cb5dca5720cbc696bdbcd878b00);
+            
+        
+
+        marker_a87f749288164125d945dcdec30dbf32.bindPopup(popup_e28d6cb0b47a86f0f6260e8e89b01a0f)
+        ;
+
+        
+    
+    
+            marker_a87f749288164125d945dcdec30dbf32.bindTooltip(
+                `<div>
+                     La Pizca Comida Mexicana & Gourmet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c79e9e993c44d3b0adb294838c9ebf11 = L.marker(
+                [19.4479003, -99.2003523],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a8e8a47a83012aecb9177e7a5c30883c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c79e9e993c44d3b0adb294838c9ebf11.setIcon(icon_a8e8a47a83012aecb9177e7a5c30883c);
+        
+    
+        var popup_87b9abdf7747920c14008533816af824 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb930faf2fdcdae91ca45c3b11583963 = $(`<div id="html_bb930faf2fdcdae91ca45c3b11583963" style="width: 100.0%; height: 100.0%;"><b>Huaraches 5 de Mayo</b><br>Calificación: 5.0<br>Servicio rápido sabor precio recomendable</div>`)[0];
+                popup_87b9abdf7747920c14008533816af824.setContent(html_bb930faf2fdcdae91ca45c3b11583963);
+            
+        
+
+        marker_c79e9e993c44d3b0adb294838c9ebf11.bindPopup(popup_87b9abdf7747920c14008533816af824)
+        ;
+
+        
+    
+    
+            marker_c79e9e993c44d3b0adb294838c9ebf11.bindTooltip(
+                `<div>
+                     Huaraches 5 de Mayo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a019f85fbbf81a7497e50a4737c42b27 = L.marker(
+                [19.314279, -99.219473],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_879ca5978616e9a8d7fa56d9393f90b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a019f85fbbf81a7497e50a4737c42b27.setIcon(icon_879ca5978616e9a8d7fa56d9393f90b5);
+        
+    
+        var popup_42ccbd745a544770e06ba4dfc837e4e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cff1a613fe4e23b11bd50dc487e45350 = $(`<div id="html_cff1a613fe4e23b11bd50dc487e45350" style="width: 100.0%; height: 100.0%;"><b>Sylvestre Artz</b><br>Calificación: 5.0<br>Delicioso agradable lugar excelente servicio</div>`)[0];
+                popup_42ccbd745a544770e06ba4dfc837e4e9.setContent(html_cff1a613fe4e23b11bd50dc487e45350);
+            
+        
+
+        marker_a019f85fbbf81a7497e50a4737c42b27.bindPopup(popup_42ccbd745a544770e06ba4dfc837e4e9)
+        ;
+
+        
+    
+    
+            marker_a019f85fbbf81a7497e50a4737c42b27.bindTooltip(
+                `<div>
+                     Sylvestre Artz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5acb025714123301a8b9e5a038dbb88 = L.marker(
+                [19.4219684, -99.1247787],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_4e7d1deaf6add3dab524e0787976239e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5acb025714123301a8b9e5a038dbb88.setIcon(icon_4e7d1deaf6add3dab524e0787976239e);
+        
+    
+        var popup_f94efa8dea79df5b8130053877eaffc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_068fadf27493961ca9567b0850bff2b9 = $(`<div id="html_068fadf27493961ca9567b0850bff2b9" style="width: 100.0%; height: 100.0%;"><b>Mercado de Sonora</b><br>Calificación: 5.0<br>temporada lleno cosa padre visitenlo</div>`)[0];
+                popup_f94efa8dea79df5b8130053877eaffc6.setContent(html_068fadf27493961ca9567b0850bff2b9);
+            
+        
+
+        marker_c5acb025714123301a8b9e5a038dbb88.bindPopup(popup_f94efa8dea79df5b8130053877eaffc6)
+        ;
+
+        
+    
+    
+            marker_c5acb025714123301a8b9e5a038dbb88.bindTooltip(
+                `<div>
+                     Mercado de Sonora
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ebc5893472f420b95d0dba5da2c1278 = L.marker(
+                [19.482766, -99.126393],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_34c7f885aa4d152eba7138a006e3bcb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ebc5893472f420b95d0dba5da2c1278.setIcon(icon_34c7f885aa4d152eba7138a006e3bcb0);
+        
+    
+        var popup_14539438e9849d1133a81881fee18113 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7e36c35b9155138140699c36e8a6ec3 = $(`<div id="html_d7e36c35b9155138140699c36e8a6ec3" style="width: 100.0%; height: 100.0%;"><b>Tortas El Volcan</b><br>Calificación: 5.0<br>MEJORES CHILAQUILES COMIDO VIDA</div>`)[0];
+                popup_14539438e9849d1133a81881fee18113.setContent(html_d7e36c35b9155138140699c36e8a6ec3);
+            
+        
+
+        marker_7ebc5893472f420b95d0dba5da2c1278.bindPopup(popup_14539438e9849d1133a81881fee18113)
+        ;
+
+        
+    
+    
+            marker_7ebc5893472f420b95d0dba5da2c1278.bindTooltip(
+                `<div>
+                     Tortas El Volcan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_746a35f8db7497ea3f1773fed585bf64 = L.marker(
+                [19.4198893, -99.1605107],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_e3a3a72a1998f902b19c983b1c6bed91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_746a35f8db7497ea3f1773fed585bf64.setIcon(icon_e3a3a72a1998f902b19c983b1c6bed91);
+        
+    
+        var popup_d3a67083fb2845e9cabb816387b02b81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f89b9895984f5e33b7e07ab7c57ff9d = $(`<div id="html_6f89b9895984f5e33b7e07ab7c57ff9d" style="width: 100.0%; height: 100.0%;"><b>Birria Estilo Jalisco - Food Stand</b><br>Calificación: 5.0<br>The birria was so good and the stall was super clear</div>`)[0];
+                popup_d3a67083fb2845e9cabb816387b02b81.setContent(html_6f89b9895984f5e33b7e07ab7c57ff9d);
+            
+        
+
+        marker_746a35f8db7497ea3f1773fed585bf64.bindPopup(popup_d3a67083fb2845e9cabb816387b02b81)
+        ;
+
+        
+    
+    
+            marker_746a35f8db7497ea3f1773fed585bf64.bindTooltip(
+                `<div>
+                     Birria Estilo Jalisco - Food Stand
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2139bcb26cd22d4007535cca74ed9dbc = L.marker(
+                [19.352142, -99.1907405],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_9a9d40707a6e189eaac786e5d9ff08bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2139bcb26cd22d4007535cca74ed9dbc.setIcon(icon_9a9d40707a6e189eaac786e5d9ff08bd);
+        
+    
+        var popup_96ae40a1cfceacda921836939af830c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77cf5f79b44c3b2c0b0c2f524f83a59a = $(`<div id="html_77cf5f79b44c3b2c0b0c2f524f83a59a" style="width: 100.0%; height: 100.0%;"><b>Las Enchiladas del Parque</b><br>Calificación: 5.0<br>rico comida amable atento visítanlo</div>`)[0];
+                popup_96ae40a1cfceacda921836939af830c4.setContent(html_77cf5f79b44c3b2c0b0c2f524f83a59a);
+            
+        
+
+        marker_2139bcb26cd22d4007535cca74ed9dbc.bindPopup(popup_96ae40a1cfceacda921836939af830c4)
+        ;
+
+        
+    
+    
+            marker_2139bcb26cd22d4007535cca74ed9dbc.bindTooltip(
+                `<div>
+                     Las Enchiladas del Parque
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eef28f84e4f3fe8e794e8ffcc2eb9384 = L.marker(
+                [19.3515028, -99.150375],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_cb5b39ad0b25fd3357693c7d405adbb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eef28f84e4f3fe8e794e8ffcc2eb9384.setIcon(icon_cb5b39ad0b25fd3357693c7d405adbb7);
+        
+    
+        var popup_880f98bb10937bdd5e6718621d3cad2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b151a67a127a6c6bd12238a2b91d25f0 = $(`<div id="html_b151a67a127a6c6bd12238a2b91d25f0" style="width: 100.0%; height: 100.0%;"><b>A darle, que es taco vegano</b><br>Calificación: 2.0<br>faltar sabor</div>`)[0];
+                popup_880f98bb10937bdd5e6718621d3cad2b.setContent(html_b151a67a127a6c6bd12238a2b91d25f0);
+            
+        
+
+        marker_eef28f84e4f3fe8e794e8ffcc2eb9384.bindPopup(popup_880f98bb10937bdd5e6718621d3cad2b)
+        ;
+
+        
+    
+    
+            marker_eef28f84e4f3fe8e794e8ffcc2eb9384.bindTooltip(
+                `<div>
+                     A darle, que es taco vegano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9667a4669643dff762ad3cb89dc028b = L.marker(
+                [19.3498122, -99.161248],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_2c15771cc4a021c25b7680568f212c38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a9667a4669643dff762ad3cb89dc028b.setIcon(icon_2c15771cc4a021c25b7680568f212c38);
+        
+    
+        var popup_6ff7d522f412cd769ad2566220279ba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b693fd833f0b6a4f7c1637cc396eb3ba = $(`<div id="html_b693fd833f0b6a4f7c1637cc396eb3ba" style="width: 100.0%; height: 100.0%;"><b>Pepe Coyotes Coyoacán</b><br>Calificación: 4.0<br>porción</div>`)[0];
+                popup_6ff7d522f412cd769ad2566220279ba1.setContent(html_b693fd833f0b6a4f7c1637cc396eb3ba);
+            
+        
+
+        marker_a9667a4669643dff762ad3cb89dc028b.bindPopup(popup_6ff7d522f412cd769ad2566220279ba1)
+        ;
+
+        
+    
+    
+            marker_a9667a4669643dff762ad3cb89dc028b.bindTooltip(
+                `<div>
+                     Pepe Coyotes Coyoacán
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0638c9146e7bc8d3580c88e119075d0 = L.marker(
+                [19.4198417, -99.1655297],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_362e3722e97dd145bbfd71cc21a520c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0638c9146e7bc8d3580c88e119075d0.setIcon(icon_362e3722e97dd145bbfd71cc21a520c6);
+        
+    
+        var popup_4e747061c8d7713f492a119a24bd1d26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0421491a65f0a73e2251bd44f34a99c = $(`<div id="html_d0421491a65f0a73e2251bd44f34a99c" style="width: 100.0%; height: 100.0%;"><b>La Tecla</b><br>Calificación: 5.0<br>excelente comida encantar lugar servicio chulado único posar ocasión contar platillo entender circunstancia quedar antojo crema langostino</div>`)[0];
+                popup_4e747061c8d7713f492a119a24bd1d26.setContent(html_d0421491a65f0a73e2251bd44f34a99c);
+            
+        
+
+        marker_d0638c9146e7bc8d3580c88e119075d0.bindPopup(popup_4e747061c8d7713f492a119a24bd1d26)
+        ;
+
+        
+    
+    
+            marker_d0638c9146e7bc8d3580c88e119075d0.bindTooltip(
+                `<div>
+                     La Tecla
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22fc5f62a94e8810d6bd612d7d951fa0 = L.marker(
+                [19.414149, -99.1645398],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_a58de903e8cc33dcda24e02f5345a9a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_22fc5f62a94e8810d6bd612d7d951fa0.setIcon(icon_a58de903e8cc33dcda24e02f5345a9a6);
+        
+    
+        var popup_342c7c8226ed5ecb53db2f44c2ce195f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0be8a5e06866418411ed97c211c3806 = $(`<div id="html_d0be8a5e06866418411ed97c211c3806" style="width: 100.0%; height: 100.0%;"><b>Mercado Roma</b><br>Calificación: 3.0<br>lugar hipster trago popular zona espacio reducido estacionamiento</div>`)[0];
+                popup_342c7c8226ed5ecb53db2f44c2ce195f.setContent(html_d0be8a5e06866418411ed97c211c3806);
+            
+        
+
+        marker_22fc5f62a94e8810d6bd612d7d951fa0.bindPopup(popup_342c7c8226ed5ecb53db2f44c2ce195f)
+        ;
+
+        
+    
+    
+            marker_22fc5f62a94e8810d6bd612d7d951fa0.bindTooltip(
+                `<div>
+                     Mercado Roma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d8843874540ad97ad50f479f8c2f9e2 = L.marker(
+                [19.3454775, -99.1741025],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_935a4d0155672b3ddc10574efe0fb52f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d8843874540ad97ad50f479f8c2f9e2.setIcon(icon_935a4d0155672b3ddc10574efe0fb52f);
+        
+    
+        var popup_07c93ce541e7dc6c45c16a924f40e67c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a25d221deaf57f75bb2090edd3553abd = $(`<div id="html_a25d221deaf57f75bb2090edd3553abd" style="width: 100.0%; height: 100.0%;"><b>MercadoRoma Coyoacán</b><br>Calificación: 5.0<br>lugar disfrutar familia amigo pulque curado carnita asado ñ</div>`)[0];
+                popup_07c93ce541e7dc6c45c16a924f40e67c.setContent(html_a25d221deaf57f75bb2090edd3553abd);
+            
+        
+
+        marker_9d8843874540ad97ad50f479f8c2f9e2.bindPopup(popup_07c93ce541e7dc6c45c16a924f40e67c)
+        ;
+
+        
+    
+    
+            marker_9d8843874540ad97ad50f479f8c2f9e2.bindTooltip(
+                `<div>
+                     MercadoRoma Coyoacán
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_380024415ef0de20b278164d8ea357a3 = L.marker(
+                [19.4216278, -99.1741918],
+                {}
+            ).addTo(map_2f939fee6b81ebc917d129edd106118e);
+        
+    
+            var icon_4e0dabaaf3ed5b3d5319110f643ab9bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_380024415ef0de20b278164d8ea357a3.setIcon(icon_4e0dabaaf3ed5b3d5319110f643ab9bd);
+        
+    
+        var popup_c87bbbe4301ae23d3d95eb47d8d252f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1334ad083deb1ff8a3d4cced7f9e1e79 = $(`<div id="html_1334ad083deb1ff8a3d4cced7f9e1e79" style="width: 100.0%; height: 100.0%;"><b>El Pialadero de Guadalajara</b><br>Calificación: 5.0<br>Rica comida</div>`)[0];
+                popup_c87bbbe4301ae23d3d95eb47d8d252f3.setContent(html_1334ad083deb1ff8a3d4cced7f9e1e79);
+            
+        
+
+        marker_380024415ef0de20b278164d8ea357a3.bindPopup(popup_c87bbbe4301ae23d3d95eb47d8d252f3)
+        ;
+
+        
+    
+    
+            marker_380024415ef0de20b278164d8ea357a3.bindTooltip(
+                `<div>
+                     El Pialadero de Guadalajara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
